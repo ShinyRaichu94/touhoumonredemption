@@ -1,77 +1,77 @@
 const u8 gDummyPokedexText[] = _(
-    "This is a newly discovered POKéMON. It is\n"
+    "This is a newly discovered Puppet. It is\n"
     "currently under investigation. No detailed\n"
     "information is available at this time.");
 
 const u8 gDummyPokedexTextUnused[] = _("");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "There is a plant seed on its back right\n"
-    "from the day this POKéMON is born.\n"
-    "The seed slowly grows larger.");
+    "Though she is a shrine maiden, she is\n"
+    "also a minor deity, thanks to her\n"
+    "inherited power.");
 
 const u8 gBulbasaurPokedexTextUnused[] = _("");
 
 const u8 gIvysaurPokedexText[] = _(
-    "There is a plant bulb on its back.\n"
-    "When it absorbs nutrients, the bulb is said\n"
-    "to blossom into a large flower.");
+    "Sanae is both a god and a human.\n"
+    "She'll continue to live as a human if she\n"
+    "loses all her faith.");
 
 const u8 gIvysaurPokedexTextUnused[] = _("");
 
 const u8 gVenusaurPokedexText[] = _(
-    "A bewitching aroma wafts from its flower.\n"
-    "The fragrance becalms those engaged in\n"
-    "a battle.");
+    "An “indoor type” magician from the Forest\n"
+    "of Magic who spends most of her time\n"
+    "alone.");
 
 const u8 gVenusaurPokedexTextUnused[] = _("");
 
 const u8 gCharmanderPokedexText[] = _(
-    "From the time it is born, a flame burns\n"
-    "at the tip of its tail. Its life would end\n"
-    "if the flame were to go out.");
+    "Without Alice's constant care, the\n"
+    "humidity from the Forest of Magic can\n"
+    "cause damage to her dolls.");
 
 const u8 gCharmanderPokedexTextUnused[] = _("");
 
 const u8 gCharmeleonPokedexText[] = _(
-    "It lashes about with its tail to knock\n"
-    "down its foe. It then tears up the fallen\n"
-    "opponent with sharp claws.");
+    "As she came from the moon, she has\n"
+    "never been friendly and cannot get along\n"
+    "with humans very well.");
 
 const u8 gCharmeleonPokedexTextUnused[] = _("");
 
 const u8 gCharizardPokedexText[] = _(
-    "Its wings can carry this POKéMON close to\n"
-    "an altitude of 4,600 feet. It blows out\n"
-    "fire at very high temperatures.");
+    "She sells medicine in the Human Village.\n"
+    "When her work has ended, she quickly\n"
+    "heads back to the Eientei.");
 
 const u8 gCharizardPokedexTextUnused[] = _("");
 
 const u8 gSquirtlePokedexText[] = _(
-    "When it retracts its long neck into its\n"
-    "shell, it squirts out water with vigorous\n"
-    "force.");
+    "Though her home area remains unknown,\n"
+    "she can be seen in areas where Spring is\n"
+    "starting to arrive.");
 
 const u8 gSquirtlePokedexTextUnused[] = _("");
 
 const u8 gWartortlePokedexText[] = _(
-    "This POKéMON is very popular as a pet.\n"
-    "Its fur-covered tail is a symbol of its\n"
-    "longevity.");
+    "Her excitement about the arrival of\n"
+    "Spring is mostly the reason why she\n"
+    "releases danmaku.");
 
 const u8 gWartortlePokedexTextUnused[] = _("");
 
 const u8 gBlastoisePokedexText[] = _(
-    "It crushes its foe under its heavy body\n"
-    "to cause fainting. In a pinch, it will\n"
-    "withdraw inside its shell.");
+    "She looks like Lily White, but her\n"
+    "dress is black. That's why people call\n"
+    "her Lily Black.");
 
 const u8 gBlastoisePokedexTextUnused[] = _("");
 
 const u8 gCaterpiePokedexText[] = _(
-    "It is covered with a green skin. When it\n"
-    "grows, it sheds the skin, covers itself\n"
-    "with silk, and becomes a cocoon.");
+    "Lily White wears black clothing in\n"
+    "situations where wearing white clothes\n"
+    "would be inappropriate.");
 
 const u8 gCaterpiePokedexTextUnused[] = _("");
 
