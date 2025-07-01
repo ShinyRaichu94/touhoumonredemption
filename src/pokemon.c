@@ -2479,8 +2479,14 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         attack *= 2;
     if (defender->ability == ABILITY_THICK_FAT && (type == TYPE_FIRE || type == TYPE_ICE))
         spAttack /= 2;
+    if (defender->ability == ABILITY_MAGMA_ARMOR && type == TYPE_WATER)
+        spAttack /= 2;
     if (attacker->ability == ABILITY_HUSTLE)
         attack = (150 * attack) / 100;
+    if (attacker->ability == ABILITY_TRUANT)
+        attack = (120 * attack) / 100;
+    if (attacker->ability == ABILITY_TRUANT)
+        spAttack = (120 * attack) / 100;
     if (attacker->ability == ABILITY_PLUS && ABILITY_ON_FIELD2(ABILITY_MINUS))
         spAttack = (150 * spAttack) / 100;
     if (attacker->ability == ABILITY_MINUS && ABILITY_ON_FIELD2(ABILITY_PLUS))
@@ -2501,6 +2507,22 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         gBattleMovePower = (150 * gBattleMovePower) / 100;
     if (type == TYPE_BUG && attacker->ability == ABILITY_SWARM && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
+
+    // Are effects of weather negated with cloud nine or air lock
+    if (WEATHER_HAS_EFFECT2)
+    {
+        // Boost Defense for Ice-types in Hail
+        if ((gBattleWeather & B_WEATHER_HAIL) && (defender->type1 == TYPE_ICE || defender->type2 == TYPE_ICE || defender->ability == ABILITY_THICK_FAT))
+        {
+            defense = (150 * defense) / 100;
+        }
+
+        // Boost Special Defense for Rock-types in sand
+        if ((gBattleWeather & B_WEATHER_SANDSTORM) && (defender->type1 == TYPE_ROCK || defender->type2 == TYPE_ROCK || defender->ability == ABILITY_SAND_VEIL))
+        {
+            spDefense = (150 * spDefense) / 100;
+        }
+    }
 
     // Self-destruct / Explosion cut defense in half
     if (gBattleMoves[gCurrentMove].effect == EFFECT_EXPLOSION)

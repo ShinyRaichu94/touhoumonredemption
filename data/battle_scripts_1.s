@@ -1116,16 +1116,8 @@ BattleScript_MoveUsedMustRecharge::
 	goto BattleScript_MoveEnd
 
 BattleScript_EffectRage::
-	attackcanceler
-	accuracycheck BattleScript_RageMiss, ACC_CURR_MOVE
-	setmoveeffect MOVE_EFFECT_RAGE
-	seteffectprimary
-	setmoveeffect 0
-	goto BattleScript_HitFromAtkString
-BattleScript_RageMiss::
-	setmoveeffect MOVE_EFFECT_RAGE
-	clearstatusfromeffect BS_ATTACKER
-	goto BattleScript_PrintMoveMissed
+	setmoveeffect MOVE_EFFECT_BURN | MOVE_EFFECT_AFFECTS_USER
+    goto BattleScript_EffectHit
 
 BattleScript_EffectMimic::
 	attackcanceler
