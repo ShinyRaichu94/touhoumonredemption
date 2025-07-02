@@ -131,10 +131,3 @@ VermilionCity_Gym_Text_AnotherSwitchInTrash::
 VermilionCity_Gym_Text_SecondLockOpened::
     .string "The second electric lock opened!\n"
     .string "The motorized door opened!$"
-
-VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
-
