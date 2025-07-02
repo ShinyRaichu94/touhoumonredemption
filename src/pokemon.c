@@ -5892,7 +5892,10 @@ static u16 GetBattleBGM(void)
         case TRAINER_CLASS_GENTLEMAN:
         case TRAINER_CLASS_RIVAL_LATE:
         default:
-            return MUS_VS_TRAINER;
+            if (gTrainers[gTrainerBattleOpponent_A].encounterMusic_gender & F_TRAINER_FEMALE)
+                return MUS_THPPME_362_FAITH_IS_FOR_THE_TRANSIENT_PEOPLE;
+            else
+                return MUS_VS_TRAINER;
         }
     }
     return MUS_VS_WILD;
