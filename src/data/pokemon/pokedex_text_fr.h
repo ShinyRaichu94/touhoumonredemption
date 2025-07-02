@@ -174,30 +174,30 @@ const u8 gArbokPokedexText[] = _(
 const u8 gArbokPokedexTextUnused[] = _("");
 
 const u8 gPikachuPokedexText[] = _(
-    "It has small electric sacs on both its\n"
-    "cheeks. If threatened, it looses electric\n"
-    "charges from the sacs.");
+    "An ice fairy who considers herself to\n"
+    "be stronger than everyone else in\n"
+    "Gensokyo.");
 
 const u8 gPikachuPokedexTextUnused[] = _("");
 
 const u8 gRaichuPokedexText[] = _(
-    "Its electric charges can reach even\n"
-    "100,000 volts. Careless contact can cause\n"
-    "even an Indian elephant to faint.");
+    "She manipulates the cold by absorbing\n"
+    "the heat from her surroundings instead\n"
+    "of creating it out of thin air.");
 
 const u8 gRaichuPokedexTextUnused[] = _("");
 
 const u8 gSandshrewPokedexText[] = _(
-    "It burrows and lives underground.\n"
-    "If threatened, it curls itself up into a\n"
-    "ball for protection.");
+    "She enjoys being in her mass of\n"
+    "darkness. However, when in her darkness,\n"
+    "she couldn't see where she was going.");
 
 const u8 gSandshrewPokedexTextUnused[] = _("");
 
 const u8 gSandslashPokedexText[] = _(
-    "It is adept at attacking with the spines\n"
-    "on its back and its sharp claws while\n"
-    "quickly scurrying about.");
+    "Be careful when encountering her in\n"
+    "dark places. She may look young and\n"
+    "simple-minded, but she eats humans.");
 
 const u8 gSandslashPokedexTextUnused[] = _("");
 
