@@ -1907,3 +1907,105 @@ DirectSoundWaveData_sd90_classical_detuned_ep1_high::
 	.align 2
 DirectSoundWaveData_sd90_enhanced_delay_shaku::
 	.incbin "sound/direct_sound_samples/sd90_enhanced_delay_shaku.bin"
+
+@ Touhoumon Music Expansion
+
+    .align 2
+DirectSoundWaveData_unknown_open_hihat::
+    .incbin "sound/direct_sound_samples/unknown_open_hihat.bin"
+
+    .align 2
+DirectSoundWaveData_unknown_bell::
+    .incbin "sound/direct_sound_samples/unknown_bell.bin"
+
+    .align 2
+DirectSoundWaveData_unknown_koto_high::
+    .incbin "sound/direct_sound_samples/unknown_koto_high.bin"
+
+    .align 2
+DirectSoundWaveData_sd90_classical_shakuhachi::
+    .incbin "sound/direct_sound_samples/sd90_classical_shakuhachi.bin"
+
+    .align 2
+DirectSoundWaveData_unknown_koto_low::
+    .incbin "sound/direct_sound_samples/unknown_koto_low.bin"
+
+    .align 2
+DirectSoundWaveData_heart_of_asia_gamelan::
+    .incbin "sound/direct_sound_samples/heart_of_asia_gamelan.bin"
+
+    .align 2
+DirectSoundWaveData_sc88pro_church_organ3_low::
+    .incbin "sound/direct_sound_samples/sc88pro_church_organ3_low.bin"
+
+    .align 2
+DirectSoundWaveData_sc88pro_church_organ3_high::
+    .incbin "sound/direct_sound_samples/sc88pro_church_organ3_high.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_cabassa::
+	.incbin "sound/direct_sound_samples/thppme_cabassa.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_directsound4689e8::
+	.incbin "sound/direct_sound_samples/thppme_directsound4689e8.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_drawbar_organ::
+	.incbin "sound/direct_sound_samples/thppme_drawbar_organ.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_gated_sd::
+	.incbin "sound/direct_sound_samples/thppme_gated_sd.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_kick_drum::
+	.incbin "sound/direct_sound_samples/thppme_kick_drum.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_mondo_kick::
+	.incbin "sound/direct_sound_samples/thppme_mondo_kick.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_open_hihat::
+	.incbin "sound/direct_sound_samples/thppme_open_hihat.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_orchestra_hit::
+	.incbin "sound/direct_sound_samples/thppme_orchestra_hit.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_pedal_hihat::
+	.incbin "sound/direct_sound_samples/thppme_pedal_hihat.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_puresquare12::
+	.incbin "sound/direct_sound_samples/thppme_puresquare12.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_puresquare25::
+	.incbin "sound/direct_sound_samples/thppme_puresquare25.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_puresquare50::
+	.incbin "sound/direct_sound_samples/thppme_puresquare50.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_recoder::
+	.incbin "sound/direct_sound_samples/thppme_recoder.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_ride_cymbal::
+	.incbin "sound/direct_sound_samples/thppme_ride_cymbal.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_side_stick::
+	.incbin "sound/direct_sound_samples/thppme_side_stick.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_square::
+	.incbin "sound/direct_sound_samples/thppme_square.bin"
+
+	.align 2
+DirectSoundWaveData_thppme_trombone::
+	.incbin "sound/direct_sound_samples/thppme_trombone.bin"

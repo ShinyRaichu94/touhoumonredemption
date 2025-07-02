@@ -262,60 +262,60 @@ gSongTable::
 	song mus_obtain_badge, 2, 2
 	song mus_obtain_tmhm, 2, 2
 	song mus_obtain_berry, 2, 2
-	song mus_evolution_intro, 2, 2
-	song mus_evolution, 0, 0
-	song mus_rs_vs_gym_leader, 0, 0
-	song mus_rs_vs_trainer, 0, 0
+	song mus_thppme_263_evo_start, 2, 2
+	song mus_thppme_264_bokura_no_hisoutensoku, 0, 0
+	song mus_thppme_265_fate_of_sixty_years, 0, 0
+	song mus_thppme_266_fate_of_sixty_years, 0, 0
 	song mus_school, 0, 0
 	song mus_slots_jackpot, 2, 2
 	song mus_slots_win, 2, 2
 	song mus_move_deleted, 2, 2
 	song mus_too_bad, 2, 2
 	song mus_follow_me, 0, 0
-	song mus_game_corner, 0, 0
-	song mus_rocket_hideout, 0, 0
-	song mus_gym, 0, 0
-	song mus_jigglypuff, 2, 2
-	song mus_intro_fight, 0, 0
-	song mus_title, 0, 0
-	song mus_cinnabar, 0, 0
-	song mus_lavender, 0, 0
+	song mus_thppme_273_curious, 0, 0
+	song mus_thppme_274_dark_road, 0, 0
+	song mus_thppme_275_cosmic_mind, 0, 0
+	song mus_thppme_276_deaf_to_all_but_the_song, 2, 2
+	song mus_thppme_277_imperishable_night, 0, 0
+	song mus_thppme_278_dream_battle, 0, 0
+	song mus_thppme_279_hellfire_mantle, 0, 0
+	song mus_thppme_280_ultimate_truth, 0, 0
 	song mus_heal_unused, 0, 0
-	song mus_cycling, 0, 0
-	song mus_encounter_rocket, 0, 0
-	song mus_encounter_girl, 0, 0
-	song mus_encounter_boy, 0, 0
-	song mus_hall_of_fame, 0, 0
-	song mus_viridian_forest, 0, 0
-	song mus_mt_moon, 0, 0
-	song mus_poke_mansion, 0, 0
-	song mus_credits, 0, 0
-	song mus_route1, 0, 0
-	song mus_route24, 0, 0
-	song mus_route3, 0, 0
-	song mus_route11, 0, 0
-	song mus_victory_road, 0, 0
-	song mus_vs_gym_leader, 0, 0
-	song mus_vs_trainer, 0, 0
-	song mus_vs_wild, 0, 0
-	song mus_vs_champion, 0, 0
-	song mus_pallet, 0, 0
-	song mus_oak_lab, 0, 0
-	song mus_oak, 0, 0
-	song mus_poke_center, 0, 0
-	song mus_ss_anne, 0, 0
-	song mus_surf, 0, 0
-	song mus_poke_tower, 0, 0
-	song mus_silph, 0, 0
-	song mus_fuchsia, 0, 0
-	song mus_celadon, 0, 0
+	song mus_thppme_282_flowering_night, 0, 0
+	song mus_thppme_283_forsaken_doll, 0, 0
+	song mus_thppme_284_judas_kiss, 0, 0
+	song mus_thppme_285_princess_inada, 0, 0
+	song mus_thppme_286_forgathering_dream, 0, 0
+	song mus_thppme_287_deaf_to_all_but_the_song, 0, 0
+	song mus_thppme_288_the_bridge, 0, 0
+	song mus_thppme_289_third_eye, 0, 0
+	song mus_thppme_290_credits_medley, 0, 0
+	song mus_thppme_291_red_soul, 0, 0
+	song mus_thppme_292_innocent_treasure, 0, 0
+	song mus_thppme_293_lunate_elf, 0, 0
+	song mus_thppme_294_gensokyo_the_god_loved, 0, 0
+	song mus_thppme_295_septette, 0, 0
+	song mus_thppme_296_unknown_was_her, 0, 0
+	song mus_thppme_297_master_spark, 0, 0
+	song mus_thppme_298_doll_judgement, 0, 0
+	song mus_thppme_299_necrofantasia, 0, 0
+	song mus_thppme_300_colorful_path, 0, 0
+	song mus_thppme_301_plain_asia, 0, 0
+	song mus_thppme_302_scarlet_beyond, 0, 0
+	song mus_thppme_303_history_of_the_moon, 0, 0
+	song mus_thppme_304_interdimensional_voyage, 0, 0
+	song mus_thppme_305_candid_friend, 0, 0
+	song mus_thppme_306_ancient_temple, 0, 0
+	song mus_thppme_307_heian_alien, 0, 0
+	song mus_thppme_308_beloved_tomboyish_girl, 0, 0
+	song mus_thppme_309_today_was_special, 0, 0
 	song mus_victory_trainer, 0, 0
 	song mus_victory_wild, 0, 0
 	song mus_victory_gym_leader, 0, 0
-	song mus_vermillion, 0, 0
-	song mus_pewter, 0, 0
-	song mus_encounter_rival, 0, 0
-	song mus_rival_exit, 0, 0
+	song mus_thppme_313_the_umbrella, 0, 0
+	song mus_thppme_314_old_world, 0, 0
+	song mus_thppme_315_fly_above_hatoyama, 0, 0
+	song mus_thppme_316_kaguya, 0, 0
 	song mus_dex_rating, 2, 2
 	song mus_obtain_key_item, 2, 2
 	song mus_caught_intro, 2, 2
@@ -325,27 +325,133 @@ gSongTable::
 	song mus_new_game_instruct, 0, 0
 	song mus_new_game_intro, 0, 0
 	song mus_new_game_exit, 0, 0
-	song mus_poke_jump, 0, 0
-	song mus_union_room, 0, 0
-	song mus_net_center, 0, 0
+	song mus_thppme_326_city_of_flower, 0, 0
+	song mus_thppme_327_end_of_daylight, 0, 0
+	song mus_thppme_328_history_of_the_moon, 0, 0
 	song mus_mystery_gift, 0, 0
-	song mus_berry_pick, 0, 0
-	song mus_sevii_cave, 0, 0
+	song mus_thppme_330_infinity_nightmare, 0, 0
+	song mus_thppme_331_hakurei_shrine_grounds, 0, 0
 	song mus_teachy_tv_show, 0, 0
-	song mus_sevii_route, 0, 0
-	song mus_sevii_dungeon, 0, 0
-	song mus_sevii_123, 0, 0
-	song mus_sevii_45, 0, 0
-	song mus_sevii_67, 0, 0
-	song mus_poke_flute, 2, 2
+	song mus_thppme_333_innocent_treasure, 0, 0
+	song mus_thppme_334_bad_apple, 0, 0
+	song mus_thppme_335_eternal_miko, 0, 0
+	song mus_thppme_336_lost_dream, 0, 0
+	song mus_thppme_337_alice_in_wonderland, 0, 0
+	song mus_thppme_338_phantom_ensemble, 2, 2
 	song mus_vs_deoxys, 0, 0
-	song mus_vs_mewtwo, 0, 0
-	song mus_vs_legend, 0, 0
-	song mus_encounter_gym_leader, 0, 0
-	song mus_encounter_deoxys, 0, 0
-	song mus_trainer_tower, 0, 0
-	song mus_slow_pallet, 0, 0
+	song mus_thppme_340_civilization_of_magic, 0, 0
+	song mus_thppme_341_now_until_the_moment_you_die, 0, 0
+	song mus_thppme_342, 0, 0
+	song mus_thppme_343_sacred_lot, 0, 0
+	song mus_thppme_344_greenwich_in_the_sky, 0, 0
+	song mus_thppme_345_legend_of_hourai, 0, 0
 	song mus_teachy_tv_menu, 0, 0
+	song mus_thppme_347_wind_god_girl, 0, 0
+	song mus_dummy, 0, 0
+	song mus_thppme_349_shanghai_alice_of_meiji_17, 0, 0
+	song mus_thppme_350_septette, 0, 0
+	song mus_thppme_351_locked_girl, 0, 0
+	song mus_thppme_352_megamari_opening, 0, 0
+	song mus_thppme_353_phantom_ensemble, 0, 0
+	song mus_thppme_354_phantom_ensemble, 0, 0
+	song mus_thppme_355_deep_mountain, 0, 0
+	song mus_thppme_356_candid_friend, 0, 0
+	song mus_thppme_357_alice_in_wonderland, 0, 0
+	song mus_thppme_358_witches_ball, 0, 0
+	song mus_thppme_359_megamari_opening, 0, 0
+	song mus_thppme_360_grimoire_of_alice, 0, 0
+	song mus_thppme_361_reincarnation, 0, 0
+	song mus_thppme_362_faith_is_for_the_transient_people, 0, 0
+	song mus_thppme_363_invisible_full_moon, 0, 0
+	song mus_thppme_364_nuclear_fusion, 0, 0
+	song mus_thppme_365_lost_place, 0, 0
+	song mus_thppme_366_sake_dish, 0, 0
+	song mus_thppme_367_young_girl_and_old_man, 0, 0
+	song mus_thppme_368_wind_god_girl, 0, 0
+	song mus_thppme_369_love_consultation, 0, 0
+	song mus_thppme_370_fly_above_hatoyama, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_dummy, 0, 0
+	song mus_thppme_381_hermit_and_jiangshi, 0, 0
+	song mus_thppme_382_unknown_was_her, 0, 0
+	song mus_thppme_383_master_spark, 0, 0
+	song mus_thppme_384_centennial_festival, 0, 0
+	song mus_thppme_385_doll_maker, 0, 0
+	song mus_thppme_386_love_consultation, 0, 0
+	song mus_thppme_387_chinese_tea, 0, 0
+	song mus_thppme_388_unknown_x, 0, 0
+	song mus_thppme_389_reimu_medley, 0, 0
+	song mus_thppme_390_green_eyed_jealousy, 0, 0
+	song mus_thppme_391_yuuka_medley, 0, 0
+	song mus_thppme_392_romantic_fall, 0, 0
+	song mus_thppme_393_dimension_of_reverie, 0, 0
+	song mus_thppme_394_alice_maestra, 0, 0
+	song mus_thppme_395_night_bird, 0, 0
+	song mus_thppme_396_extend_ash, 0, 0
+	song mus_thppme_397_flowering_night, 0, 0
+	song mus_thppme_398_demystify_feast, 0, 0
+	song mus_thppme_399_flower_land, 0, 0
+	song mus_thppme_400_riverside_view, 0, 0
+	song mus_thppme_401_swift_battle, 0, 0
+	song mus_thppme_402_primal_scene, 0, 0
+	song mus_thppme_403_ground_water, 0, 0
+	song mus_thppme_404_third_eye, 0, 0
+	song mus_thppme_405_shrine_of_the_wind, 0, 0
+	song mus_thppme_406_border_of_life, 0, 0
+	song mus_thppme_407_curiousity, 0, 0
+	song mus_thppme_408_legend_of_kage, 0, 0
+	song mus_thppme_409_legendary_fish, 0, 0
+	song mus_thppme_410_hina_medley, 0, 0
+	song mus_thppme_411_last_remote, 0, 0
+	song mus_thppme_412_casket_of_star, 0, 0
+	song mus_thppme_413_sleepless_night_in_kyoto, 0, 0
+	song mus_thppme_414_desire_drive, 0, 0
+	song mus_thppme_415_marisa_medley, 0, 0
+	song mus_thppme_416_crystalized_silver, 0, 0
+	song mus_thppme_417_gardener_and_mistress, 0, 0
+	song mus_thppme_418_unknown_was_her, 0, 0
+	song mus_thppme_419_youkai_modern_colony, 0, 0
+	song mus_thppme_420_ancients, 0, 0
+	song mus_thppme_421_grave_of_being, 0, 0
+	song mus_thppme_422_colorful_path_hm_mix, 0, 0
+	song mus_thppme_423_magus_night, 0, 0
+	song mus_thppme_424_true_administrator_hm_mix, 0, 0
+	song mus_thppme_425_blade_of_banishment, 0, 0
+	song mus_thppme_426_winds_of_time, 0, 0
+	song mus_thppme_427_imperishable_night, 0, 0
+	song mus_thppme_428_positive_and_negative, 0, 0
+	song mus_thppme_429_swordman, 0, 0
+	song mus_thppme_430_angels_legend, 0, 0
+	song mus_thppme_431_magic_mirror, 0, 0
+	song mus_thppme_432_fairy_war, 0, 0
+	song mus_thppme_433_infinite_corridor, 0, 0
+	song mus_thppme_434_beloved_tomboyish_girl, 0, 0
+	song mus_thppme_435_magician_of_the_evening_darkness, 0, 0
+	song mus_thppme_436_selenes_light, 0, 0
+	song mus_thppme_437_master_spark_gbc_style, 0, 0
+	song mus_thppme_438_mermaid, 0, 0
+	song mus_thppme_439_hartmanns_hm_mix, 0, 0
+	song mus_thppme_440_dullahan, 0, 0
+	song mus_thppme_441_wonderful_heaven, 0, 0
+	song mus_thppme_442_immortal_smoke, 0, 0
+	song mus_thppme_443_clever_commander, 0, 0
+	song mus_thppme_444_native_faith, 0, 0
+	song mus_thppme_445_missing_power, 0, 0
+	song mus_thppme_446_doll_judgement, 0, 0
+	song mus_thppme_447_pristine_beat, 0, 0
+	song mus_thppme_448_misty_lake, 0, 0
+	song mus_thppme_449_strawberry_crisis, 0, 0
+	song mus_thppme_450_complete_darkness, 0, 0
+	song mus_thppme_451_starry_sky, 0, 0
+	song mus_thppme_452_reverse_ideology, 0, 0
 
 dummy_song_header:
 	.byte 0, 0, 0, 0
