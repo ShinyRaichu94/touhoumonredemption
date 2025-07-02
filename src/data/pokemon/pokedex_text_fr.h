@@ -76,100 +76,100 @@ const u8 gCaterpiePokedexText[] = _(
 const u8 gCaterpiePokedexTextUnused[] = _("");
 
 const u8 gMetapodPokedexText[] = _(
-    "Even though it is encased in a sturdy\n"
-    "shell, the body inside is tender.\n"
-    "It can't withstand a harsh attack.");
+    "A cooperative white wolf tengu who\n"
+    "patrols Youkai Mountain and executes\n"
+    "her duties faithfully.");
 
 const u8 gMetapodPokedexTextUnused[] = _("");
 
 const u8 gButterfreePokedexText[] = _(
-    "The wings are protected by rain-repellent\n"
-    "dust. As a result, this POKéMON can fly\n"
-    "about even in rain.");
+    "She can see up to 2,440 miles ahead of\n"
+    "her with her telegnosis ability, which\n"
+    "can help her detect intruders.");
 
 const u8 gButterfreePokedexTextUnused[] = _("");
 
 const u8 gWeedlePokedexText[] = _(
-    "Often found in forests and grasslands.\n"
-    "It has a sharp, toxic barb of around two\n"
-    "inches on top of its head.");
+    "During Autumn, she changes the color\n"
+    "of the leaves by painting them with a\n"
+    "paint brush.");
 
 const u8 gWeedlePokedexTextUnused[] = _("");
 
 const u8 gKakunaPokedexText[] = _(
-    "This POKéMON is in a temporary stage\n"
-    "while making its body. It is almost\n"
-    "completely unable to move on its own.");
+    "Shizuha can make the autumn leaves\n"
+    "fall by violently kicking the trees\n"
+    "and scattering them roughly.");
 
 const u8 gKakunaPokedexTextUnused[] = _("");
 
 const u8 gBeedrillPokedexText[] = _(
-    "May appear in a swarm. Flies at violent\n"
-    "speeds, all the while stabbing with the\n"
-    "toxic stinger on its rear.");
+    "A poisonous doll youkai with an extreme\n"
+    "hatred for humanity. Touching her might\n"
+    "cause inflammation.");
 
 const u8 gBeedrillPokedexTextUnused[] = _("");
 
 const u8 gPidgeyPokedexText[] = _(
-    "Does not like to fight. It hides in\n"
-    "tall grass and so on, foraging for food\n"
-    "such as small bugs.");
+    "Dolls are nonliving things. As a doll\n"
+    "herself, the poison has no effect on\n"
+    "her at all.");
 
 const u8 gPidgeyPokedexTextUnused[] = _("");
 
 const u8 gPidgeottoPokedexText[] = _(
-    "The claws on its feet are well developed.\n"
-    "It can carry prey such as an EXEGGCUTE\n"
-    "to its nest over 60 miles away.");
+    "A devil who is usually seen in the\n"
+    "Scarlet Devil Mansion's library, working\n"
+    "as a library assistant for Patchouli.");
 
 const u8 gPidgeottoPokedexTextUnused[] = _("");
 
 const u8 gPidgeotPokedexText[] = _(
-    "It spreads its gorgeous wings widely to\n"
-    "intimidate enemies. It races through the\n"
-    "skies at Mach-2 speed.");
+    "She doesn't actually have a name.\n"
+    "However, many people decided to call her\n"
+    "Koakuma as a nickname.");
 
 const u8 gPidgeotPokedexTextUnused[] = _("");
 
 const u8 gRattataPokedexText[] = _(
-    "Its fangs are long and very sharp.\n"
-    "They grow continuously, so it gnaws on\n"
-    "hard things to whittle them down.");
+    "Her dowsing rods can help her search\n"
+    "for treasure, and order the mice under\n"
+    "her command.");
 
 const u8 gRattataPokedexTextUnused[] = _("");
 
 const u8 gRaticatePokedexText[] = _(
-    "Its rear feet have three toes each.\n"
-    "They are webbed, enabling it to swim\n"
-    "across rivers.");
+    "If she orders the mice to find food,\n"
+    "most of the food will be eaten when\n"
+    "they return.");
 
 const u8 gRaticatePokedexTextUnused[] = _("");
 
 const u8 gSpearowPokedexText[] = _(
-    "It busily flits around here and there.\n"
-    "Even if it is frail, it can be a tough\n"
-    "foe that uses MIRROR MOVE.");
+    "She is known as one of the many weak\n"
+    "youkai in Gensokyo, but she seems to\n"
+    "enjoy reading books.");
 
 const u8 gSpearowPokedexTextUnused[] = _("");
 
 const u8 gFearowPokedexText[] = _(
-    "Its huge and magnificent wings can keep it\n"
-    "aloft in the sky. It can remain flying a\n"
-    "whole day without landing.");
+    "She easily gets beaten up by Reimu\n"
+    "whenever she tries to read books,\n"
+    "which were now sold to Rinnosuke.");
 
 const u8 gFearowPokedexTextUnused[] = _("");
 
 const u8 gEkansPokedexText[] = _(
-    "A very common sight in grassland, etc.\n"
-    "It flicks its tongue in and out to sense\n"
-    "danger in its surroundings.");
+    "A vampire who is the head of the\n"
+    "Scarlet Devil Mansion. She is respected\n"
+    "by most youkai of Gensokyo.");
 
 const u8 gEkansPokedexTextUnused[] = _("");
 
 const u8 gArbokPokedexText[] = _(
-    "The pattern on its belly appears to be a\n"
-    "frightening face. Weak foes will flee just\n"
-    "at the sight of the pattern.");
+    "She is known as the “Scarlet Devil”,\n"
+    "because she usually stains her white\n"
+    "clothes while drinking blood from humans.");
 
 const u8 gArbokPokedexTextUnused[] = _("");
 
