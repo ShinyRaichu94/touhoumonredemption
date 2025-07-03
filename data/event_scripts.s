@@ -855,8 +855,8 @@ Text_WantWhichFloor::
 	.string "Which floor do you want?$"
 
 Text_BagItemCanBeRegistered::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "An item in the Bag can be\n"
+	.string "registered to Select for easy use.$"
 
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail::
@@ -886,12 +886,13 @@ gText_PkmnFainted3::
 	.string "$"
 
 Text_WelcomeWantToHealPkmn::
-	.string "Welcome to our POKéMON CENTER!\p"
+	.string "Welcome to our Puppet Center!\p"
 	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "Puppets back to perfect health?$"
 
 Text_TakeYourPkmnForFewSeconds::
-	.string "Okay, I'll take your POKéMON for a\n"
+	.string "Welcome to our Puppet Center!\p"
+	.string "I'll take your Puppets for a\n"
 	.string "few seconds.$"
 
 Text_WeHopeToSeeYouAgain::
@@ -899,7 +900,7 @@ Text_WeHopeToSeeYouAgain::
 
 Text_RestoredPkmnToFullHealth::
 	.string "Thank you for waiting.\n"
-	.string "We've restored your POKéMON to\l"
+	.string "We've restored your Puppets to\l"
 	.string "full health.$"
 
 	.include "data/text/surf.inc"
