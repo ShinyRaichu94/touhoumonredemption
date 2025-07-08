@@ -352,12 +352,20 @@
 #define MUS_TRAINER_TOWER         344 // MUS_T_TOWER
 #define MUS_SLOW_PALLET           345 // MUS_SLOWMASARA
 #define MUS_TEACHY_TV_MENU        346 // MUS_TVNOIZE
-// Touhoumon Music Expansion -- Alias
+// Touhoumon Music Expansion / Zoku Gensokyo Scenario -- Alias
+#define MUS_THPPZGSK_256A_HEALING                       MUS_HEAL
+#define MUS_THPPZGSK_257A_LEVEL_UP                      MUS_LEVEL_UP
+
+#define MUS_THPPZGSK_259A_EVOLVED                       MUS_EVOLVED
+
 #define MUS_THPPME_263_EVO_START                        MUS_EVOLUTION_INTRO
 #define MUS_THPPME_264_BOKURA_NO_HISOUTENSOKU           MUS_EVOLUTION
 #define MUS_THPPME_265_FATE_OF_SIXTY_YEARS              MUS_RS_VS_GYM_LEADER
 #define MUS_THPPME_266_FATE_OF_SIXTY_YEARS              MUS_RS_VS_TRAINER
 
+#define MUS_THPPZGSK_270A_YOU_FAIL_IT                   MUS_MOVE_DELETED
+
+#define MUS_THPPZGSK_272A_FOLLOW_ME                     MUS_FOLLOW_ME
 #define MUS_THPPME_273_CURIOUS                          MUS_GAME_CORNER
 #define MUS_THPPME_274_DARK_ROAD                        MUS_ROCKET_HIDEOUT
 #define MUS_THPPME_275_COSMIC_MIND                      MUS_GYM
@@ -395,11 +403,19 @@
 #define MUS_THPPME_307_HEIAN_ALIEN                      MUS_SILPH
 #define MUS_THPPME_308_BELOVED_TOMBOYISH_GIRL           MUS_FUCHSIA
 #define MUS_THPPME_309_TODAY_WAS_SPECIAL                MUS_CELADON
-
+#define MUS_THPPZGSK_310A_PRINCESS_INADA                MUS_VICTORY_TRAINER
+#define MUS_THPPZGSK_311A_IMMORTAL_SMOKE                MUS_VICTORY_WILD
+#define MUS_THPPZGSK_312A_GOOD_CHEER                    MUS_VICTORY_GYM_LEADER
 #define MUS_THPPME_313_THE_UMBRELLA                     MUS_VERMILLION
 #define MUS_THPPME_314_OLD_WORLD                        MUS_PEWTER
 #define MUS_THPPME_315_FLY_ABOVE_HATOYAMA               MUS_ENCOUNTER_RIVAL
 #define MUS_THPPME_316_KAGUYA                           MUS_RIVAL_EXIT
+
+#define MUS_THPPZGSK_319A_PUPPET_CAUGHT                 MUS_CAUGHT_INTRO
+
+#define MUS_THPPZGSK_322A_IMMORTAL_SMOKE                MUS_CAUGHT
+
+#define MUS_THPPZGSK_324A_BOKURA_NO_HISOUTENSOKU        MUS_NEW_GAME_INTRO
 
 #define MUS_THPPME_326_CITY_OF_FLOWER                   MUS_POKE_JUMP
 #define MUS_THPPME_327_END_OF_DAYLIGHT                  MUS_UNION_ROOM
@@ -414,7 +430,7 @@
 #define MUS_THPPME_336_LOST_DREAM                       MUS_SEVII_45
 #define MUS_THPPME_337_ALICE_IN_WONDERLAND              MUS_SEVII_67
 #define MUS_THPPME_338_PHANTOM_ENSEMBLE                 MUS_POKE_FLUTE
-
+#define MUS_THPPZGSK_339A_REINCARNATION                 MUS_VS_DEOXYS
 #define MUS_THPPME_340_CIVILIZATION_OF_MAGIC            MUS_VS_MEWTWO
 #define MUS_THPPME_341_NOW_UNTIL_THE_MOMENT_YOU_DIE     MUS_VS_LEGEND
 #define MUS_THPPME_342                                  MUS_ENCOUNTER_GYM_LEADER
@@ -528,6 +544,143 @@
 #define MUS_THPPME_450_COMPLETE_DARKNESS                450
 #define MUS_THPPME_451_STARRY_SKY                       451
 #define MUS_THPPME_452_REVERSE_IDEOLOGY                 452
+// Touhoumon Zoku Gensokyo Scenario; A is day/default themes and B is night themes in Zoku
+#define MUS_THPPZGSK_263A_EVO_START                     453
+#define MUS_THPPZGSK_264A_BOKURA_NO_HISOUTENSOKU        454
+#define MUS_THPPZGSK_273A_CURIOUS                       455
+#define MUS_THPPZGSK_274A_DARK_ROAD                     456
+#define MUS_THPPZGSK_274B_DARK_ROAD                     457
+#define MUS_THPPZGSK_275A_COSMIC_MIND                   458
+#define MUS_THPPZGSK_276A_DEAF_TO_ALL_BUT_THE_SONG      459
+#define MUS_THPPZGSK_277A_IMPERISHABLE_NIGHT            460
+#define MUS_THPPZGSK_278A_DREAM_BATTLE                  461
+#define MUS_THPPZGSK_279A_HELLFIRE_MANTLE               462
+#define MUS_THPPZGSK_280A_ULTIMATE_TRUTH                463
+#define MUS_THPPZGSK_280B_ULTIMATE_TRUTH                464
+#define MUS_THPPZGSK_282A_WIND_GOD_GIRL                 465
+#define MUS_THPPZGSK_283A_LOST_PLACE                    466
+#define MUS_THPPZGSK_284A_SAKE_DISH                     467
+#define MUS_THPPZGSK_285A_YOUNG_GIRL_AND_OLD_MAN        468
+#define MUS_THPPZGSK_286A_FORGATHERING_DREAM            469
+#define MUS_THPPZGSK_287A_DEAF_TO_ALL_BUT_THE_SONG      470
+#define MUS_THPPZGSK_287B_DEAF_TO_ALL_BUT_THE_SONG      471
+#define MUS_THPPZGSK_288A_THE_BRIDGE                    472
+#define MUS_THPPZGSK_289A_THIRD_EYE                     473
+#define MUS_THPPZGSK_290A_CREDITS_MEDLEY                474
+#define MUS_THPPZGSK_291A_RED_SOUL                      475
+#define MUS_THPPZGSK_291B_RED_SOUL                      476
+#define MUS_THPPZGSK_292A_INNOCENT_TREASURE             477
+#define MUS_THPPZGSK_293A_LUNATE_ELF                    478
+#define MUS_THPPZGSK_293B_LUNATE_ELF                    479
+#define MUS_THPPZGSK_294A_GENSOKYO_THE_GOD_LOVED        480
+#define MUS_THPPZGSK_294B_GENSOKYO_THE_GOD_LOVED        481
+#define MUS_THPPZGSK_295A_SEPTETTE                      482
+#define MUS_THPPZGSK_296A_TEPES_SEPTETTE                483
+#define MUS_THPPZGSK_297A_MASTER_SPARK                  484
+#define MUS_THPPZGSK_297B_FAITH_IS_FOR_THE_TRANSIENT_PEOPLE 485
+#define MUS_THPPZGSK_298A_DOLL_JUDGEMENT                486
+#define MUS_THPPZGSK_299A_NECROFANTASIA                 487
+#define MUS_THPPZGSK_300A_COLORFUL_PATH                 488
+#define MUS_THPPZGSK_300B_COLORFUL_PATH                 489
+#define MUS_THPPZGSK_301A_PLAIN_ASIA                    490
+#define MUS_THPPZGSK_301B_PLAIN_ASIA                    491
+#define MUS_THPPZGSK_302A_SCARLET_BEYOND                492
+#define MUS_THPPZGSK_303A_HISTORY_OF_THE_MOON           493
+#define MUS_THPPZGSK_303B_HISTORY_OF_THE_MOON           494
+#define MUS_THPPZGSK_304A_INTERDIMENSIONAL_VOYAGE       495
+#define MUS_THPPZGSK_305A_CANDID_FRIEND                 496
+#define MUS_THPPZGSK_306A_ANCIENT_TEMPLE                497
+#define MUS_THPPZGSK_306B_ANCIENT_TEMPLE                498
+#define MUS_THPPZGSK_307A_HEIAN_ALIEN                   499
+#define MUS_THPPZGSK_308A_BELOVED_TOMBOYISH_GIRL        500
+#define MUS_THPPZGSK_309A_TODAY_WAS_SPECIAL             501
+#define MUS_THPPZGSK_309B_TODAY_WAS_SPECIAL             502
+#define MUS_THPPZGSK_313A_THE_UMBRELLA                  503
+#define MUS_THPPZGSK_314A_OLD_WORLD                     504
+#define MUS_THPPZGSK_314B_OLD_WORLD                     505
+#define MUS_THPPZGSK_315A_FLY_ABOVE_HATOYAMA            506
+#define MUS_THPPZGSK_316A_FLY_ABOVE_HATOYAMA            507
+#define MUS_THPPZGSK_326A_CITY_OF_FLOWER                508
+#define MUS_THPPZGSK_326B_CITY_OF_FLOWER                509
+#define MUS_THPPZGSK_327A_END_OF_DAYLIGHT               510
+#define MUS_THPPZGSK_330A_INFINITY_NIGHTMARE            511
+#define MUS_THPPZGSK_331A_HAKUREI_SHRINE_GROUNDS        512
+#define MUS_THPPZGSK_333A_INNOCENT_TREASURE             513
+#define MUS_THPPZGSK_333B_INNOCENT_TREASURE             514
+#define MUS_THPPZGSK_334A_BAD_APPLE                     515
+#define MUS_THPPZGSK_335A_ETERNAL_MIKO                  516
+#define MUS_THPPZGSK_336A_LOST_DREAM                    517
+#define MUS_THPPZGSK_337A_ALICE_IN_WONDERLAND           518
+#define MUS_THPPZGSK_338A_PHANTOM_ENSEMBLE              519
+#define MUS_THPPZGSK_340A_CIVILIZATION_OF_MAGIC         520
+#define MUS_THPPZGSK_341A_NOW_UNTIL_THE_MOMENT_YOU_DIE  521
+#define MUS_THPPZGSK_342A                               522
+#define MUS_THPPZGSK_343A_SACRED_LOT                    523
+#define MUS_THPPZGSK_344A_GREENWICH_IN_THE_SKY          524
+#define MUS_THPPZGSK_345A_LEGEND_OF_HOURAI              525
+#define MUS_THPPZGSK_347A_WIND_GOD_GIRL                 526
+#define MUS_THPPZGSK_349A_SHANGHAI_ALICE_OF_MEIJI_17    527
+#define MUS_THPPZGSK_350A_SEPTETTE                      528
+#define MUS_THPPZGSK_350B_SEPTETTE                      529
+#define MUS_THPPZGSK_351A_LOCKED_GIRL                   530
+#define MUS_THPPZGSK_351B_LOCKED_GIRL                   531
+#define MUS_THPPZGSK_352A_MEGAMARI_OPENING              532
+#define MUS_THPPZGSK_353A_PHANTOM_ENSEMBLE              533
+#define MUS_THPPZGSK_354A_PHANTOM_ENSEMBLE              534
+#define MUS_THPPZGSK_355A_DEEP_MOUNTAIN                 535
+#define MUS_THPPZGSK_355B_DEEP_MOUNTAIN                 536
+#define MUS_THPPZGSK_356A_CANDID_FRIEND                 537
+#define MUS_THPPZGSK_357A_ALICE_IN_WONDERLAND           538
+#define MUS_THPPZGSK_358A_WITCHES_BALL                  539
+#define MUS_THPPZGSK_359A_MEGAMARI_OPENING              540
+#define MUS_THPPZGSK_360A_BORDER_OF_LIFE                541
+#define MUS_THPPZGSK_361A_GHOSTLY_EYES                  542
+#define MUS_THPPZGSK_361B_GHOSTLY_EYES                  543
+#define MUS_THPPZGSK_362A_HISTORY_OF_THE_MOON           544
+#define MUS_THPPZGSK_362B_HISTORY_OF_THE_MOON           545
+#define MUS_THPPZGSK_363A_LUNATIC_PRINCESS              546
+#define MUS_THPPZGSK_364A_FLOWER_LAND                   547
+#define MUS_THPPZGSK_365A_MISSING_POWER                 548
+#define MUS_THPPZGSK_366A_DOLL_JUDGEMENT                549
+#define MUS_THPPZGSK_367A                               550
+#define MUS_THPPZGSK_367B                               551
+#define MUS_THPPZGSK_368A                               552
+#define MUS_THPPZGSK_369A_FATE_OF_60_YEARS              553
+#define MUS_THPPZGSK_370A_FATE_OF_60_YEARS              554
+#define MUS_THPPZGSK_371A_FAIRY_WARS                    555
+#define MUS_THPPZGSK_372A_FLOWER_OF_JAPAN               556
+#define MUS_THPPZGSK_373A                               557
+#define MUS_THPPZGSK_374A_ROMANTIC_FALL                 558
+#define MUS_THPPZGSK_374B_ROMANTIC_FALL                 559
+#define MUS_THPPZGSK_375A                               560
+#define MUS_THPPZGSK_376A_FALL_OF_FALL                  561
+#define MUS_THPPZGSK_377A_MYSTERIOUS_MOUNTAIN           562
+#define MUS_THPPZGSK_378A_PRIMAL_SCENE                  563
+#define MUS_THPPZGSK_378B_PRIMAL_SCENE                  564
+#define MUS_THPPZGSK_379A_SUWA_FOUGHTEN_FIELD           565
+#define MUS_THPPZGSK_380A_DARK_BLOWHOLE                 566
+#define MUS_THPPZGSK_380B_DARK_BLOWHOLE                 567
+#define MUS_THPPZGSK_381A_FORMER_HELL                   568
+#define MUS_THPPZGSK_381B_FORMER_HELL                   569
+#define MUS_THPPZGSK_382A_THIRD_EYE                     570
+#define MUS_THPPZGSK_382B_THIRD_EYE                     571
+#define MUS_THPPZGSK_383A_NUCLEAR_FUSION                572
+#define MUS_THPPZGSK_384A_THE_END_OF_SPRING             573
+#define MUS_THPPZGSK_384B_THE_END_OF_SPRING             574
+#define MUS_THPPZGSK_385A_FIRE_OF_HOKKAI                575
+#define MUS_THPPZGSK_386A_COSMIC_MIND                   576
+#define MUS_THPPZGSK_387A                               577
+#define MUS_THPPZGSK_387B                               578
+#define MUS_THPPZGSK_388A                               579
+#define MUS_THPPZGSK_389A_NECRO_FANTASY                 580
+#define MUS_THPPZGSK_389B_NECRO_FANTASY                 581
+#define MUS_THPPZGSK_392A_LUNA_DIAL                     582
+#define MUS_THPPZGSK_393A_MAGUS_NIGHT                   583
+#define MUS_THPPZGSK_394A_IMPERISHABLE_DREAM_BATTLE     584
+#define MUS_THPPZGSK_399A_MASTER_SPARK                  585
+#define MUS_THPPZGSK_400A_FAITH_IS_FOR_THE_TRANSIENT_PEOPLE 586
+#define MUS_THPPZGSK_401A_PLASTIC_MIND                  587
+#define MUS_THPPZGSK_402A_MASTER_SPARK                  588
 
 #define MUS_NONE                    0xFFFF
 
