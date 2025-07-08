@@ -202,58 +202,58 @@ const u8 gSandslashPokedexText[] = _(
 const u8 gSandslashPokedexTextUnused[] = _("");
 
 const u8 gNidoranFPokedexText[] = _(
-    "Though small, it must be treated with\n"
-    "caution because of its powerfully toxic\n"
-    "barbs. The female has smaller horns.");
+    "Alice can control multiple dolls as\n"
+    "if they were living beings. This doll\n"
+    "can fire a straight piercing laser.");
 
 const u8 gNidoranFPokedexTextUnused[] = _("");
 
 const u8 gNidorinaPokedexText[] = _(
-    "The female has a gentle temperament.\n"
-    "It emits ultrasonic cries that have the\n"
-    "power to befuddle foes.");
+    "The wings on her back appears to contain\n"
+    "different colored crystals. However, she\n"
+    "can still use them to fly.");
 
 const u8 gNidorinaPokedexTextUnused[] = _("");
 
 const u8 gNidoqueenPokedexText[] = _(
-    "The body is covered by stiff, needle-\n"
-    "like scales. If it becomes excited,\n"
-    "the needles bristle outwards.");
+    "Due to her ability of destroying\n"
+    "things, anything that is made for her\n"
+    "to play with ends up broken.");
 
 const u8 gNidoqueenPokedexTextUnused[] = _("");
 
 const u8 gNidoranMPokedexText[] = _(
-    "Its large ears are flapped like wings\n"
-    "when it is listening to distant sounds.\n"
-    "It extends toxic barbs when angered.");
+    "Theoretically more powerful than\n"
+    "Shanghai. Alice can use this doll for\n"
+    "some of her stronger spells in battle.");
 
 const u8 gNidoranMPokedexTextUnused[] = _("");
 
 const u8 gNidorinoPokedexText[] = _(
-    "It is easily angered. By swinging its well-\n"
-    "developed horn wildly, it can even punch\n"
-    "through diamond.");
+    "A swordswoman who uses two special swords.\n"
+    "She is incredibly skilled in swordsmanship,\n"
+    "despite her training being unfinished.");
 
 const u8 gNidorinoPokedexTextUnused[] = _("");
 
 const u8 gNidokingPokedexText[] = _(
-    "It is recognized by its rock-hard hide\n"
-    "and its extended horn. Be careful with\n"
-    "the horn as it contains venom.");
+    "The white phantom that's on her side\n"
+    "is her ghostly half. Her two halves can\n"
+    "work together when it comes to battles.");
 
 const u8 gNidokingPokedexTextUnused[] = _("");
 
 const u8 gClefairyPokedexText[] = _(
-    "Its adorable appearance makes it popular\n"
-    "as a pet. However, it is rare and\n"
-    "difficult to find.");
+    "A one-of-a-kind type of youkai who can\n"
+    "use her gaps to freely travel to places\n"
+    "in an instant.");
 
 const u8 gClefairyPokedexTextUnused[] = _("");
 
 const u8 gClefablePokedexText[] = _(
-    "It has an acute sense of hearing. It can\n"
-    "easily hear a pin being dropped nearly\n"
-    "1,100 yards away.");
+    "She may be the most powerful youkai in\n"
+    "Gensokyo, but she usually sleeps all day\n"
+    "and lives for the enjoyment of life.");
 
 const u8 gClefablePokedexTextUnused[] = _("");
 
@@ -1042,9 +1042,9 @@ const u8 gDragonairPokedexText[] = _(
 const u8 gDragonairPokedexTextUnused[] = _("");
 
 const u8 gDragonitePokedexText[] = _(
-    "It can fly in spite of its big and bulky\n"
-    "physique. It circles the globe in just\n"
-    "16 hours.");
+    "This giant doll, created by Alice, is\n"
+    "currently in an experimental phase and\n"
+    "being used for testing.");
 
 const u8 gDragonitePokedexTextUnused[] = _("");
 
