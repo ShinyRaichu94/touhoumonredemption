@@ -258,16 +258,16 @@ const u8 gClefablePokedexText[] = _(
 const u8 gClefablePokedexTextUnused[] = _("");
 
 const u8 gVulpixPokedexText[] = _(
-    "While young, it has six gorgeous tails.\n"
-    "When it grows, several new tails are\n"
-    "sprouted.");
+    "This childish oni claims that she's\n"
+    "been drinking sake for over hundreds of\n"
+    "years.");
 
 const u8 gVulpixPokedexTextUnused[] = _("");
 
 const u8 gNinetalesPokedexText[] = _(
-    "It has nine long tails and fur that \n"
-    "gleams gold. It is said to live for \n"
-    "1,000 years.");
+    "Some say that Suika's massive amount\n"
+    "of strength lets her able to tear\n"
+    "down Youkai Mountain.");
 
 const u8 gNinetalesPokedexTextUnused[] = _("");
 
