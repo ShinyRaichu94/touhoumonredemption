@@ -16,15 +16,15 @@ MtMoon_B2F_Text_ThenThisFossilIsMine::
     .string "Then this fossil is mine!$"
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Far away, on CINNABAR ISLAND,\n"
-    .string "there's a POKéMON LAB.\p"
+    .string "Far away, on Cinnabar Island,\n"
+    .string "there's a Puppet Lab.\p"
     .string "They do research on regenerating\n"
     .string "fossils.$"
 
 MtMoon_B2F_Text_Grunt1Intro::
-    .string "We, TEAM ROCKET, shall find the\n"
+    .string "We, Team Rocket, shall find the\n"
     .string "fossils!\p"
-    .string "Reviving POKéMON from them will\n"
+    .string "Reviving Puppets from them will\n"
     .string "earn us huge riches!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
@@ -33,10 +33,10 @@ MtMoon_B2F_Text_Grunt1Defeat::
 
 MtMoon_B2F_Text_Grunt1PostBattle::
     .string "You made me mad!\n"
-    .string "TEAM ROCKET will blacklist you!$"
+    .string "Team Rocket will blacklist you!$"
 
 MtMoon_B2F_Text_Grunt2Intro::
-    .string "We, TEAM ROCKET, are POKéMON\n"
+    .string "We, Team Rocket, are Puppet\n"
     .string "gangsters!\l"
     .string "We strike fear with our strength!$"
 
@@ -67,7 +67,7 @@ MtMoon_B2F_Text_Grunt4Defeat::
     .string "I'm steamed!$"
 
 MtMoon_B2F_Text_Grunt4PostBattle::
-    .string "POKéMON lived here long before\n"
+    .string "Puppets lived here long before\n"
     .string "people came.$"
 
 MtMoon_B2F_Text_YouWantDomeFossil::
@@ -82,3 +82,33 @@ MtMoon_B2F_Text_ObtainedHelixFossil::
 MtMoon_B2F_Text_ObtainedDomeFossil::
     .string "Obtained the DOME FOSSIL!$"
 
+MtMoon_B2F_Text_ArianaIntro::
+    .string "Hold it right there!$"
+
+MtMoon_B2F_Text_ArianaIntro2::
+    .string "I've heard some reports about a\n"
+    .string "kid messing with Team Rocket here.\p"
+    .string "So, I came to see what's going\n"
+    .string "on.\p"
+    .string "……… ……… ………\p"
+    .string "That… That fossil…\p"
+    .string "You must be that kid!\p"
+    .string "We want that fossil to make\n"
+    .string "money out of it!\p"
+    .string "Now, be a good kid and hand that\n"
+    .string "fossil to me.\p"
+    .string "……… ……… ………\p"
+    .string "You're not handing it over?\p"
+    .string "Well, I might as well take it\n"
+    .string "from you, by force!$"
+
+MtMoon_B2F_Text_ArianaDefeat::
+    .string "Hmph, you're stronger than\n"
+    .string "I thought…$"
+
+MtMoon_B2F_Text_ArianaPostBattle::
+    .string "You know what?\n"
+    .string "Keep your fossil.\p"
+    .string "We got other things to take care\n"
+    .string "of.\p"
+    .string "So, you better not mess with us!$"

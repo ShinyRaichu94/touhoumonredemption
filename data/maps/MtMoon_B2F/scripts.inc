@@ -4,11 +4,16 @@ MtMoon_B2F_MapScripts::
 
 MtMoon_B2F_OnTransition::
 	call_if_unset FLAG_GOT_FOSSIL_FROM_MT_MOON, MtMoon_B2F_EventScript_ShowFossils
+	call_if_unset FLAG_HIDE_ARIANA_IN_MTMOON, MtMoon_B2F_EventScript_HideAriana
 	end
 
 MtMoon_B2F_EventScript_ShowFossils::
 	clearflag FLAG_HIDE_DOME_FOSSIL
 	clearflag FLAG_HIDE_HELIX_FOSSIL
+	return
+
+MtMoon_B2F_EventScript_HideAriana::
+	removeobject LOCALID_MTMOON_ARIANA
 	return
 
 MtMoon_B2F_EventScript_MiguelTrigger::
@@ -134,3 +139,92 @@ MtMoon_B2F_EventScript_Grunt4::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_4, MtMoon_B2F_Text_Grunt4Intro, MtMoon_B2F_Text_Grunt4Defeat
 	msgbox MtMoon_B2F_Text_Grunt4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+MtMoon_B2F_EventScript_ArianaTriggerLeft::
+	textcolor NPC_TEXT_COLOR_FEMALE
+	message MtMoon_B2F_Text_ArianaIntro
+	waitmessage
+	delay 85
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	applymovement LOCALID_PLAYER, MtMoon_B2F_Movement_PlayerArianaTriggerLeft
+	waitmovement 0
+	goto MtMoon_B2F_EventScript_Ariana
+	end
+
+MtMoon_B2F_EventScript_ArianaTriggerRight::
+	textcolor NPC_TEXT_COLOR_FEMALE
+	message MtMoon_B2F_Text_ArianaIntro
+	waitmessage
+	delay 85
+	closemessage
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	playse SE_PIN
+	applymovement LOCALID_PLAYER, Common_Movement_ExclamationMark
+	waitmovement 0
+	delay 30
+	applymovement LOCALID_PLAYER, MtMoon_B2F_Movement_PlayerArianaTriggerRight
+	waitmovement 0
+	goto MtMoon_B2F_EventScript_Ariana
+	end
+
+MtMoon_B2F_Movement_PlayerArianaTriggerLeft::
+	walk_up
+	walk_right
+	step_end
+
+MtMoon_B2F_Movement_PlayerArianaTriggerRight::
+	walk_up
+	step_end
+
+MtMoon_B2F_EventScript_Ariana::
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	playbgm MUS_THPPME_365_LOST_PLACE, 0
+	addobject LOCALID_MTMOON_ARIANA
+	applymovement LOCALID_MTMOON_ARIANA, MtMoon_B2F_Movement_ArianaMoveIntro
+	waitmovement 0
+	msgbox MtMoon_B2F_Text_ArianaIntro2
+	closemessage
+	trainerbattle_no_intro TRAINER_AQUA_LEADER, MtMoon_B2F_Text_ArianaDefeat
+	msgbox MtMoon_B2F_Text_ArianaPostBattle
+	closemessage
+	applymovement LOCALID_MTMOON_ARIANA, MtMoon_B2F_Movement_ArianaMoveLeave
+	waitmovement 0
+	setvar VAR_MAP_SCENE_MT_MOON_B2F, 2
+	removeobject LOCALID_MTMOON_ARIANA
+	playse SE_EXIT
+	delay 5
+	end
+
+MtMoon_B2F_Movement_ArianaMoveIntro::
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+MtMoon_B2F_Movement_ArianaMoveLeave::
+	walk_up
+	walk_left
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	step_end

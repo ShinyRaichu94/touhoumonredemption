@@ -62,7 +62,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 37,
       "y": 21,
       "elevation": 3,
@@ -76,7 +76,7 @@
     },
     {
       "type": "object",
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 12,
       "y": 20,
       "elevation": 3,
@@ -171,6 +171,21 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon_B2F_EventScript_ItemAntidote",
       "flag": "FLAG_HIDE_MT_MOON_B2F_ANTIDOTE"
+    },
+    {
+      "local_id": "LOCALID_MTMOON_ARIANA",
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HIDE_ARIANA_IN_MTMOON"
     }
   ],
   "warp_events": [
@@ -212,6 +227,24 @@
       "var": "VAR_MAP_SCENE_MT_MOON_B2F",
       "var_value": "0",
       "script": "MtMoon_B2F_EventScript_MiguelTrigger"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_MT_MOON_B2F",
+      "var_value": "1",
+      "script": "MtMoon_B2F_EventScript_ArianaTriggerRight"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_MAP_SCENE_MT_MOON_B2F",
+      "var_value": "1",
+      "script": "MtMoon_B2F_EventScript_ArianaTriggerLeft"
     }
   ],
   "bg_events": [

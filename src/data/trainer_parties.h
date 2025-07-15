@@ -21,7 +21,25 @@
         .species = SPECIES_STARMIE, \
     }
 
-static const struct TrainerMonNoItemDefaultMoves sParty_AquaLeader[] = {DUMMY_TRAINER_MON};
+// Team Rocket Admin Ariana (Mt. Moon)
+static const struct TrainerMonNoItemDefaultMoves sParty_AquaLeader[] = {
+    {
+        .iv = 0,
+        .lvl = 15,
+        .species = SPECIES_UMBREON,
+    },
+    {
+        .iv = 0,
+        .lvl = 15,
+        .species = SPECIES_WEEPINBELL,
+    },
+    {
+        .iv = 0,
+        .lvl = 16,
+        .species = SPECIES_STARYU,
+    },
+};
+
 static const struct TrainerMonNoItemDefaultMoves sParty_AquaGruntM[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_AquaGruntF[] = {DUMMY_TRAINER_MON};
 static const struct TrainerMonNoItemDefaultMoves sParty_RSAromaLady[] = {DUMMY_TRAINER_MON};

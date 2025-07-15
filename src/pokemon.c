@@ -5887,10 +5887,18 @@ static u16 GetBattleBGM(void)
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_GYM_LEADER;
         case TRAINER_CLASS_BOSS:
+            return MUS_THPPME_364_NUCLEAR_FUSION;
         case TRAINER_CLASS_TEAM_ROCKET:
+            //if (gTrainers[gTrainerBattleOpponent_A].trainerName == "Ariana" || gTrainers[gTrainerBattleOpponent_A].trainerName == "Archer")
+                //return MUS_THPPME_363_INVISIBLE_FULL_MOON;
+            //else
+                return MUS_THPPME_265_FATE_OF_SIXTY_YEARS;
         case TRAINER_CLASS_COOLTRAINER:
         case TRAINER_CLASS_GENTLEMAN:
+        case TRAINER_CLASS_RIVAL_EARLY:
+            return MUS_THPPZGSK_377A_MYSTERIOUS_MOUNTAIN;
         case TRAINER_CLASS_RIVAL_LATE:
+            return MUS_THPPZGSK_377A_MYSTERIOUS_MOUNTAIN;
         default:
             if (gTrainers[gTrainerBattleOpponent_A].encounterMusic_gender & F_TRAINER_FEMALE)
                 return MUS_THPPME_362_FAITH_IS_FOR_THE_TRANSIENT_PEOPLE;

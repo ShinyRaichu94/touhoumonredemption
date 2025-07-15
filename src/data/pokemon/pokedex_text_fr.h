@@ -266,71 +266,71 @@ const u8 gVulpixPokedexTextUnused[] = _("");
 
 const u8 gNinetalesPokedexText[] = _(
     "Some say that Suika's massive amount\n"
-    "of strength lets her able to tear\n"
-    "down Youkai Mountain.");
+    "of strength is powerful enough for her\n"
+    "to tear down Youkai Mountain.");
 
 const u8 gNinetalesPokedexTextUnused[] = _("");
 
 const u8 gJigglypuffPokedexText[] = _(
-    "It captivates foes with its huge, round\n"
-    "eyes, then lulls them to sleep by singing\n"
-    "a soothing melody.");
+    "During the night, she usually lures\n"
+    "humans with her singing. Once a human\n"
+    "is nearby, she attacks.");
 
 const u8 gJigglypuffPokedexTextUnused[] = _("");
 
 const u8 gWigglytuffPokedexText[] = _(
-    "Its fur is extremely fine, dense, and\n"
-    "supple. The exquisitely pleasant fur\n"
-    "conveys an image of luxury.");
+    "She loves to sing, but her singing\n"
+    "can drive people insane or causes\n"
+    "night-blindness to them.");
 
 const u8 gWigglytuffPokedexTextUnused[] = _("");
 
 const u8 gZubatPokedexText[] = _(
-    "It has no eyes. Instead, it relies on\n"
-    "its ultrasonic cries for echo location to\n"
-    "flit about in darkness.");
+    "Despite being a goddess, she isn't\n"
+    "worshiped enough to have a shrine, and\n"
+    "usually gets faith from individual people.");
 
 const u8 gZubatPokedexTextUnused[] = _("");
 
 const u8 gGolbatPokedexText[] = _(
-    "It clamps down on its prey with needle-\n"
-    "sharp fangs and drains over 10 ounces of\n"
-    "blood in one gulp.");
+    "She usually wears her perfume, which is\n"
+    "made with freshly-harvested sweet\n"
+    "potatoes. It makes her smell like one.");
 
 const u8 gGolbatPokedexTextUnused[] = _("");
 
 const u8 gOddishPokedexText[] = _(
-    "Its scientific name is “Oddium Wanderus.”\n"
-    "At night, it is said to walk nearly 1,000\n"
-    "feet on its two roots.");
+    "She usually spends her days as a history\n"
+    "teacher in the Human Village. She also\n"
+    "acts as its guardian.");
 
 const u8 gOddishPokedexTextUnused[] = _("");
 
 const u8 gGloomPokedexText[] = _(
-    "Its pistils exude an incredibly foul odor.\n"
-    "The horrid stench can cause fainting at a\n"
-    "distance of 1.25 miles.");
+    "She has the ability to “eat” history.\n"
+    "As in, concealing history from outside\n"
+    "viewers to protect the Human Village.");
 
 const u8 gGloomPokedexTextUnused[] = _("");
 
 const u8 gVileplumePokedexText[] = _(
-    "Its petals are the largest in the world.\n"
-    "It fiendishly scatters allergy-causing\n"
-    "pollen from its petals.");
+    "As a were-hakutaku, Keine takes this\n"
+    "form during the night of the full moon.\n"
+    "In this form, she can create history.");
 
 const u8 gVileplumePokedexTextUnused[] = _("");
 
 const u8 gParasPokedexText[] = _(
-    "Growing out of the bug's back are\n"
-    "mushrooms called tochukaso. The mushrooms\n"
-    "grow with the bug host.");
+    "Due to her being lazy at being an envoy\n"
+    "of the Dragon Palace, she'll never get\n"
+    "the role of being a leader.");
 
 const u8 gParasPokedexTextUnused[] = _("");
 
 const u8 gParasectPokedexText[] = _(
-    "It scatters toxic spores from the\n"
-    "mushroom cap. In China, the spores are\n"
-    "used as herbal medicine.");
+    "By borrowing the Dragon God's power from\n"
+    "the Dragon Palace, Iku is able to cause\n"
+    "and control lightning.");
 
 const u8 gParasectPokedexTextUnused[] = _("");
 

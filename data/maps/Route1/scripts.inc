@@ -33,3 +33,7 @@ Route1_EventScript_Boy::
 Route1_EventScript_RouteSign::
 	msgbox Route1_Text_RouteSign, MSGBOX_SIGN
 	end
+
+Route1_EventScript_TrainerTips::
+	msgbox Route1_Text_TrainerTips, MSGBOX_SIGN
+	end

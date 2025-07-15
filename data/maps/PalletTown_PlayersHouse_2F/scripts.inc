@@ -5,10 +5,15 @@ PalletTown_PlayersHouse_2F_MapScripts::
 
 PalletTown_PlayersHouse_2F_OnTransition::
 	call_if_eq VAR_MAP_SCENE_PALLET_TOWN_PLAYERS_HOUSE_2F, 0, PalletTown_PlayersHouse_2F_EventScript_SetRespawn
+	call_if_unset FLAG_SYS_B_DASH, PalletTown_PlayersHouse_2F_EventScript_SetRunningShoes
 	end
 
 PalletTown_PlayersHouse_2F_EventScript_SetRespawn::
 	setrespawn HEAL_LOCATION_PALLET_TOWN
+	return
+
+PalletTown_PlayersHouse_2F_EventScript_SetRunningShoes::
+	setflag FLAG_SYS_B_DASH
 	return
 
 PalletTown_PlayersHouse_2F_OnWarp::

@@ -26,3 +26,6 @@ Route1_Text_RouteSign::
     .string "Route 1\n"
     .string "Pallet Town - Viridian City$"
 
+Route1_Text_TrainerTips::
+    .string "TRAINER TIPS\p"
+    .string "Press the B Button to run.$"
