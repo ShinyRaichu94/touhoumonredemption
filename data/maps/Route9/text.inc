@@ -104,3 +104,12 @@ Route9_Text_RouteSign::
     .string "ROUTE 9\n"
     .string "CERULEAN CITY - ROCK TUNNEL$"
 
+Route9_Text_DoYouKnowLtSurge::
+    .string "Do you know Lt. Surge?\n"
+    .string "He's a pretty tough Gym Leader.$"
+
+Route9_Text_LtSurgeWindPuppets::
+    .string "Lt. Surge's Wind-type Puppets\n"
+    .string "are pretty strong.\p"
+    .string "Not even my CYamame can handle\n"
+    .string "them on her own.$"

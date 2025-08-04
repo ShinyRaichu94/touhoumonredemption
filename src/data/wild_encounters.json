@@ -21258,29 +21258,29 @@
                 "species": "SPECIES_PRIMEAPE"
               },
               {
-                "min_level": 44,
-                "max_level": 44,
-                "species": "SPECIES_ARBOK"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_BULBASAUR"
               },
               {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_SPEAROW"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VENUSAUR"
               },
               {
-                "min_level": 42,
-                "max_level": 42,
-                "species": "SPECIES_FEAROW"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHARMELEON"
               },
               {
-                "min_level": 32,
-                "max_level": 32,
-                "species": "SPECIES_SPEAROW"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_VENUSAUR"
               },
               {
-                "min_level": 44,
-                "max_level": 44,
-                "species": "SPECIES_FEAROW"
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_CHARMELEON"
               }
             ]
           },

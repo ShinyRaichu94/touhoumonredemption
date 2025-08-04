@@ -7,33 +7,33 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     [SPECIES_BULBASAUR] =
     {
-        .size = MON_COORDS_SIZE(48, 32),
-        .y_offset = 16,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 1,
     },
     [SPECIES_IVYSAUR] =
     {
-        .size = MON_COORDS_SIZE(56, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 1,
     },
     [SPECIES_VENUSAUR] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 1,
     },
     [SPECIES_CHARMANDER] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 10,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 1,
     },
     [SPECIES_CHARMELEON] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 7,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 1,
     },
     [SPECIES_CHARIZARD] =
     {
-        .size = MON_COORDS_SIZE(64, 56),
-        .y_offset = 4,
+        .size = MON_COORDS_SIZE(64, 64),
+        .y_offset = 1,
     },
     [SPECIES_SQUIRTLE] =
     {

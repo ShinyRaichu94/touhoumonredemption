@@ -133,7 +133,7 @@
 #define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE          0x075
 #define FLAG_HIDE_LOSTELLE_IN_HER_HOME                     0x076
 #define FLAG_HIDE_ARIANA_IN_MTMOON                         0x077
-#define FLAG_0x078                                         0x078
+#define FLAG_HIDE_ROUTE_9_YOUNGSTERS                       0x078
 #define FLAG_HIDE_THREE_ISLAND_BIKERS                      0x079
 #define FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST                 0x07A
 #define FLAG_HIDE_TWO_ISLAND_WOMAN                         0x07B

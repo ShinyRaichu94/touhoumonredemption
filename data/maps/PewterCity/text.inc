@@ -122,21 +122,24 @@ PewterCity_Text_OhPlayer::
 
 PewterCity_Text_AskedToDeliverThis::
     .string "I'm glad I caught up to you.\n"
-    .string "I'm PROF. OAK's AIDE.\p"
+    .string "I'm Prof. Oak's Aide.\p"
     .string "I've been asked to deliver this,\n"
     .string "so here you go.$"
 
 PewterCity_Text_ReceivedRunningShoesFromAide::
     .string "{PLAYER} received the\n"
-    .string "RUNNING SHOES from the AIDE.$"
+    .string "Exp. Share from the Aide.$"
 
 PewterCity_Text_SwitchedShoesWithRunningShoes::
     .string "{PLAYER} switched shoes with the\n"
     .string "RUNNING SHOES.$"
 
 PewterCity_Text_ExplainRunningShoes::
-    .string "Press the B Button to run.\n"
-    .string "But only where there's room to run!$"
+    .string "Exp. Share is an item to be held\n"
+    .string "by a Puppet.\p"
+    .string "The Puppet will receive a share\n"
+    .string "of the Exp. Points without having\l"
+    .string "to battle.$"
 
 PewterCity_Text_MustBeGoingBackToLab::
     .string "Well, I must be going back to\n"
@@ -146,7 +149,7 @@ PewterCity_Text_MustBeGoingBackToLab::
 PewterCity_Text_RunningShoesLetterFromMom::
     .string "There's a letter attached…\p"
     .string "Dear {PLAYER},\p"
-    .string "Here is a pair of RUNNING SHOES\n"
+    .string "Here is an Exp. Share\n"
     .string "for my beloved challenger.\p"
     .string "Remember, I'll always cheer for\n"
     .string "you! Don't ever give up!\p"

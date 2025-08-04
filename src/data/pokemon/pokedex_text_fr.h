@@ -49,14 +49,14 @@ const u8 gCharizardPokedexTextUnused[] = _("");
 
 const u8 gSquirtlePokedexText[] = _(
     "Though her home area remains unknown,\n"
-    "she can be seen in areas where Spring is\n"
+    "she can be seen in areas where spring is\n"
     "starting to arrive.");
 
 const u8 gSquirtlePokedexTextUnused[] = _("");
 
 const u8 gWartortlePokedexText[] = _(
     "Her excitement about the arrival of\n"
-    "Spring is mostly the reason why she\n"
+    "spring is mostly the reason why she\n"
     "releases danmaku.");
 
 const u8 gWartortlePokedexTextUnused[] = _("");
@@ -90,7 +90,7 @@ const u8 gButterfreePokedexText[] = _(
 const u8 gButterfreePokedexTextUnused[] = _("");
 
 const u8 gWeedlePokedexText[] = _(
-    "During Autumn, she changes the color\n"
+    "During autumn, she changes the color\n"
     "of the leaves by painting them with a\n"
     "paint brush.");
 
