@@ -79,3 +79,18 @@ SilphCo_5F_Text_RocketBossLookingForStrongMons::
     .string "strong POKéMON.\p"
     .string "I hope our PRESIDENT managed to\n"
     .string "avoid trouble…$"
+
+SilphCo_5F_Text_KyleIntro::
+    .string "You want a Card Key?\n"
+    .string "Well, you better fight me for it!$"
+
+SilphCo_5F_Text_KyleDefeat::
+    .string "Argh!\n"
+    .string "I messed up!$"
+
+SilphCo_5F_Text_KylePostBattle::
+    .string "Actually, I don't have a Card\n"
+    .string "Key.\p"
+    .string "But, I can tell you that there\n"
+    .string "is one somewhere in this floor.\p"
+    .string "Good luck finding it!$"

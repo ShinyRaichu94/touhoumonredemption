@@ -90,3 +90,37 @@ MtMoon_1F_Text_BrockHelpsExcavateFossils::
     .string "under MT. MOON.\p"
     .string "Sometimes, BROCK of PEWTER GYM\n"
     .string "lends me a hand.$"
+
+MtMoon_1F_Text_LizIntro::
+    .string "Liz: We're twins! And we love\n"
+    .string "double battles!$"
+
+MtMoon_1F_Text_LizDefeat::
+    .string "Liz: That was really fun!$"
+
+MtMoon_1F_Text_LizPostBattle::
+    .string "Liz: You want to know why we\n"
+    .string "love double battles?\p"
+    .string "We both battle against other\n"
+    .string "Trainers, together!$"
+
+MtMoon_1F_Text_LizNotEnoughMons::
+    .string "Liz: Aw man…\p"
+    .string "We really want to battle you,\n"
+    .string "but you only got one Puppet…$"
+
+MtMoon_1F_Text_LivIntro::
+    .string "Liv: I'm so excited!\p"
+    .string "We're battling you in a double\n"
+    .string "battle!$"
+
+MtMoon_1F_Text_LivDefeat::
+    .string "Liv: Did we do our best, Liz?$"
+
+MtMoon_1F_Text_LivPostBattle::
+    .string "Liv: With Liz on my side, we work\n"
+    .string "together and fight other Trainers.$"
+
+MtMoon_1F_Text_LivNotEnoughMons::
+    .string "Liv: Aw, if only you have at\n"
+    .string "least two Puppets…$"

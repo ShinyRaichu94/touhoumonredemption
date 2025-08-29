@@ -349,16 +349,16 @@ const u8 gVenomothPokedexText[] = _(
 const u8 gVenomothPokedexTextUnused[] = _("");
 
 const u8 gDiglettPokedexText[] = _(
-    "It burrows through the ground at a\n"
-    "shallow depth. It leaves raised earth in\n"
-    "its wake, making it easy to spot.");
+    "She doesn't want to attack humans.\n"
+    "But humans have to stay away from her,\n"
+    "because of her ability.");
 
 const u8 gDiglettPokedexTextUnused[] = _("");
 
 const u8 gDugtrioPokedexText[] = _(
-    "In battle, it digs through the ground and\n"
-    "strikes the unsuspecting foe from an\n"
-    "unexpected direction.");
+    "If you see her nearby, don't get too\n"
+    "close. Otherwise, you'll be very likely\n"
+    "to get sick.");
 
 const u8 gDugtrioPokedexTextUnused[] = _("");
 
@@ -461,16 +461,16 @@ const u8 gAlakazamPokedexText[] = _(
 const u8 gAlakazamPokedexTextUnused[] = _("");
 
 const u8 gMachopPokedexText[] = _(
-    "Its whole body is composed of muscles.\n"
-    "Even though it's the size of a human\n"
-    "child, it can hurl 100 grown-ups.");
+    "This straightforward oni has the power\n"
+    "to wield anomalies, strength, disorder,\n"
+    "and spirits.");
 
 const u8 gMachopPokedexTextUnused[] = _("");
 
 const u8 gMachokePokedexText[] = _(
-    "Its formidable body never gets tired.\n"
-    "It helps people by doing work such as\n"
-    "the moving of heavy goods.");
+    "Her super strength is so powerful,\n"
+    "her loud screams can flatten trees\n"
+    "around her as if they're nothing.");
 
 const u8 gMachokePokedexTextUnused[] = _("");
 
@@ -587,44 +587,44 @@ const u8 gFarfetchdPokedexText[] = _(
 const u8 gFarfetchdPokedexTextUnused[] = _("");
 
 const u8 gDoduoPokedexText[] = _(
-    "A two-headed POKéMON that was discovered\n"
-    "as a sudden mutation. It runs at a pace\n"
-    "of over 60 miles per hour.");
+    "A greater fairy who lives around the\n"
+    "Misty Lake. She has the same personality\n"
+    "as most other fairies.");
 
 const u8 gDoduoPokedexTextUnused[] = _("");
 
 const u8 gDodrioPokedexText[] = _(
-    "An odd species that is rarely found.\n"
-    "The three heads respectively represent\n"
-    "joy, sadness, and anger.");
+    "Though she is stronger and mightier\n"
+    "than most fairies, she is still\n"
+    "weaker than humans.");
 
 const u8 gDodrioPokedexTextUnused[] = _("");
 
 const u8 gSeelPokedexText[] = _(
-    "Covered with light blue fur, its hide is\n"
-    "thick and tough. It is active in bitter\n"
-    "cold of minus 40 degrees Fahrenheit.");
+    "As a shy kappa, she runs away from humans\n"
+    "whenever she sees one. But, she is quite\n"
+    "cheerful when she's with her friends.");
 
 const u8 gSeelPokedexTextUnused[] = _("");
 
 const u8 gDewgongPokedexText[] = _(
-    "Its body is covered with a pure white\n"
-    "fur. The colder the weather, the more\n"
-    "active it becomes.");
+    "Despite having a shy personality, she has\n"
+    "greedy side when it comes to running a\n"
+    "stand for profit.");
 
 const u8 gDewgongPokedexTextUnused[] = _("");
 
 const u8 gGrimerPokedexText[] = _(
-    "Sludge exposed to X rays from the moon\n"
-    "transformed into GRIMER. It loves feeding\n"
-    "on filthy things.");
+    "She absorbs misfortune from humans and\n"
+    "gives them to the other gods. The\n"
+    "negative energy from it gives her power.");
 
 const u8 gGrimerPokedexTextUnused[] = _("");
 
 const u8 gMukPokedexText[] = _(
-    "It is usually undetectable because it\n"
-    "blends in with the ground. Touching it can\n"
-    "cause terrible poisoning.");
+    "Hina is a very dangerous god. If you get\n"
+    "too close to her, you'll be very likely to\n"
+    "get cursed by her misfortune.");
 
 const u8 gMukPokedexTextUnused[] = _("");
 
@@ -657,16 +657,16 @@ const u8 gHaunterPokedexText[] = _(
 const u8 gHaunterPokedexTextUnused[] = _("");
 
 const u8 gGengarPokedexText[] = _(
-    "It is said to emerge from darkness to\n"
-    "steal the lives of those who become lost\n"
-    "in mountains.");
+    "Her job is to be the gatekeeper of the\n"
+    "Scarlet Devil Mansion, but she usually\n"
+    "sleeps while doing that.");
 
 const u8 gGengarPokedexTextUnused[] = _("");
 
 const u8 gOnixPokedexText[] = _(
-    "It usually lives underground. It searches\n"
-    "for food while boring its way through the\n"
-    "ground at 50 miles per hour.");
+    "This youkai is skilled at martial arts.\n"
+    "Because of this, she prefers fighting\n"
+    "with combat rather than danmaku.");
 
 const u8 gOnixPokedexTextUnused[] = _("");
 
@@ -797,44 +797,44 @@ const u8 gChanseyPokedexText[] = _(
 const u8 gChanseyPokedexTextUnused[] = _("");
 
 const u8 gTangelaPokedexText[] = _(
-    "Blue plant vines cloak the POKéMON's\n"
-    "identity in a tangled mass. It entangles\n"
-    "anything that gets close.");
+    "This energetic fairy can change the\n"
+    "refraction of light, making her able\n"
+    "to hide herself to cause pranks.");
 
 const u8 gTangelaPokedexTextUnused[] = _("");
 
 const u8 gKangaskhanPokedexText[] = _(
-    "The female raises its offspring in a pouch\n"
-    "on its belly. It is skilled at attacking\n"
-    "using COMET PUNCH.");
+    "Known as the leader of the Three Fairies\n"
+    "of Light. With her two partners, they\n"
+    "can cause pranks.");
 
 const u8 gKangaskhanPokedexTextUnused[] = _("");
 
 const u8 gHorseaPokedexText[] = _(
-    "It maintains balance using its tail, which\n"
-    "is wound up like a coil. It may spray ink\n"
-    "from its mouth.");
+    "This clumsy fairy has the ability to mute\n"
+    "sounds around her. It is known as “the\n"
+    "ultimate fairy weapon in hide-and-seek”.");
 
 const u8 gHorseaPokedexTextUnused[] = _("");
 
 const u8 gSeadraPokedexText[] = _(
-    "Its body bristles with sharp spikes.\n"
-    "Carelessly trying to touch it could cause\n"
-    "fainting from the spikes.");
+    "A member of the Three Fairies of Light.\n"
+    "She loves coffee beans and sometimes\n"
+    "steals some from humans.");
 
 const u8 gSeadraPokedexTextUnused[] = _("");
 
 const u8 gGoldeenPokedexText[] = _(
-    "Its dorsal and pectoral fins are strongly\n"
-    "developed like muscles. It can swim at a\n"
-    "speed of five knots.");
+    "This fairy can detect things that exist\n"
+    "from afar, but only the ones that are\n"
+    "currently moving.");
 
 const u8 gGoldeenPokedexTextUnused[] = _("");
 
 const u8 gSeakingPokedexText[] = _(
-    "The horn on its head is sharp like a\n"
-    "drill. It bores a hole in a boulder to\n"
-    "make its nest.");
+    "One of the Three Fairies of Light\n"
+    "members. Unlike her partners, she has\n"
+    "the most bizarre sense of perception.");
 
 const u8 gSeakingPokedexTextUnused[] = _("");
 
@@ -895,16 +895,16 @@ const u8 gPinsirPokedexText[] = _(
 const u8 gPinsirPokedexTextUnused[] = _("");
 
 const u8 gTaurosPokedexText[] = _(
-    "When it is about to TACKLE, it whips\n"
-    "its body repeatedly with its three\n"
-    "long tails.");
+    "Though she’s almost harmless, she\n"
+    "becomes quick to anger when someone\n"
+    "offends any insects.");
 
 const u8 gTaurosPokedexTextUnused[] = _("");
 
 const u8 gMagikarpPokedexText[] = _(
-    "It is virtually worthless in terms of both\n"
-    "power and speed. It is the most weak and\n"
-    "pathetic POKéMON in the world.");
+    "Wriggle wishes that humans find\n"
+    "insects helpful and not treat them\n"
+    "like pests.");
 
 const u8 gMagikarpPokedexTextUnused[] = _("");
 
@@ -965,9 +965,9 @@ const u8 gPorygonPokedexText[] = _(
 const u8 gPorygonPokedexTextUnused[] = _("");
 
 const u8 gOmanytePokedexText[] = _(
-    "A prehistoric POKéMON that lived in the\n"
-    "primordial sea, it swims by twisting its\n"
-    "10 tentacles about.");
+    "Though she looks like a witch,\n"
+    "she is technically an ordinary human\n"
+    "magician.");
 
 const u8 gOmanytePokedexTextUnused[] = _("");
 
@@ -1056,9 +1056,9 @@ const u8 gMewtwoPokedexText[] = _(
 const u8 gMewtwoPokedexTextUnused[] = _("");
 
 const u8 gMewPokedexText[] = _(
-    "A POKéMON of South America that was\n"
-    "thought to have been extinct. It is very\n"
-    "intelligent and learns any move.");
+    "She was theorized to be a nurse.\n"
+    "However, this theory is pure\n"
+    "speculation.");
 
 const u8 gMewPokedexTextUnused[] = _("");
 

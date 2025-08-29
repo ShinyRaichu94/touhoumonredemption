@@ -3,14 +3,14 @@ SaffronCity_MrPsychicsHouse_Text_YouWantedThis::
     .string "You wanted this!$"
 
 SaffronCity_MrPsychicsHouse_Text_ReceivedTM29FromMrPsychic::
-    .string "{PLAYER} received TM29\n"
-    .string "from MR. PSYCHIC.$"
+    .string "{PLAYER} received TM04\n"
+    .string "from Mr. Esper.$"
 
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
     .string "You already know, don't you?\n"
-    .string "TM29 is PSYCHIC.\p"
-    .string "It's an attack that may also lower\n"
-    .string "the target's special stats.$"
+    .string "TM04 is Calm Mind.\p"
+    .string "It makes the Puppet concentrate\n"
+    .string "to raise both Sp. Atk and Sp. Def.$"
 
 SaffronCity_MrPsychicsHouse_Text_YouveNoRoom::
     .string "Where do you plan to put this?\n"

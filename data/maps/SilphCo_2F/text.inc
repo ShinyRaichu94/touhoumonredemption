@@ -72,3 +72,46 @@ SilphCo_2F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
     .string "2F$"
 
+SilphCo_2F_Text_DelayTheReleases::
+    .string "After the attack of Team Rocket,\n"
+    .string "we're falling behind schedule.\p"
+    .string "Luckily, the president decided\n"
+    .string "to delay the releases of our\l"
+    .string "projects.$"
+
+SilphCo_2F_Text_NoMasterOrbsInShops::
+    .string "We decided to not sell Master\n"
+    .string "Orbs in shops.\p"
+    .string "Because we were concerned about\n"
+    .string "them being used on the wrong\l"
+    .string "hands.$"
+
+SilphCo_2F_Text_ThanksForSavingSilphCo::
+    .string "Thanks a lot for saving Silph\n"
+    .string "Co. from Team Rocket!\p"
+    .string "Now, we can get back to work.$"
+
+SilphCo_2F_Text_MyCTokiko::
+    .string "When Team Rocket showed up,\n"
+    .string "they managed to steal my Puppet!\p"
+    .string "But then, they suddenly gave her\n"
+    .string "back to me and said that my\l"
+    .string "Puppet isn't even worth it.\p"
+    .string "I mean, I'm glad that I got my\n"
+    .string "CTokiko back, but what do they\l"
+    .string "mean by “not worth it”?$"
+
+SilphCo_2F_Text_ADayOff::
+    .string "After all of this Team Rocket\n"
+    .string "madness, I could really use a\l"
+    .string "day off… Or two…$"
+
+SilphCo_2F_Text_MakeASecuritySystem::
+    .string "Maybe, we should make a security\n"
+    .string "system to keep intruders out.$"
+
+SilphCo_2F_Text_TeamRocketBossThreatning::
+    .string "Team Rocket's boss looks very\n"
+    .string "threatning.\p"
+    .string "I think I'm going to have\n"
+    .string "nightmares about him later.$"

@@ -93,3 +93,39 @@ RockTunnel_B1F_Text_WinstonPostBattle::
     .string "I'm an artist, not a fighter.\n"
     .string "I'll go home to draw.$"
 
+RockTunnel_B1F_Text_KugoIntro::
+    .string "Kugo: I fight for strength,\n"
+    .string "my sister fights for speed!\p"
+    .string "Together, we make a good\n"
+    .string "combat team!$"
+
+RockTunnel_B1F_Text_KugoDefeat::
+    .string "Kugo: Our strength and speed\n"
+    .string "were off!$"
+
+RockTunnel_B1F_Text_KugoPostBattle::
+    .string "Kugo: Which is better?\n"
+    .string "Strength or speed?$"
+
+RockTunnel_B1F_Text_KugoNotEnoughMons::
+    .string "Kugo: We fight for speed\n"
+    .string "and strength!\p"
+    .string "But, not against Trainers\n"
+    .string "with only one Puppet.$"
+
+RockTunnel_B1F_Text_MaeIntro::
+    .string "Mae: I have the speed while\n"
+    .string "my brother has the strength!$"
+
+RockTunnel_B1F_Text_MaeDefeat::
+    .string "Mae: We're wrecked!$"
+
+RockTunnel_B1F_Text_MaePostBattle::
+    .string "Mae: There are moves and\n"
+    .string "items that can boost your\l"
+    .string "Puppet's Attack or Speed.$"
+
+RockTunnel_B1F_Text_MaeNotEnoughMons::
+    .string "Mae: If you want to see our\n"
+    .string "speed and strength, you need\l"
+    .string "at least two Puppets.$"

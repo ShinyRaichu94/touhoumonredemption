@@ -1,48 +1,48 @@
 PokedexRating_Text_HowIsPokedexComingAlong::
-	.string "OAK: Good to see you!\n"
-	.string "How is your POKéDEX coming along?\p"
+	.string "Oak: Good to see you!\n"
+	.string "How is your iDollDex coming along?\p"
 	.string "Here, let me take a look.$"
 
 PokedexRating_Text_SeenXOwnedY::
 	.string "The amount of progress you've made\n"
-	.string "on your POKéDEX is:\p"
-	.string "{STR_VAR_1} POKéMON seen and\n"
-	.string "{STR_VAR_2} POKéMON owned.\p"
-	.string "{FONT_NORMAL}PROF. OAK's rating:$"
+	.string "on your iDollDex is:\p"
+	.string "{STR_VAR_1} Puppets seen and\n"
+	.string "{STR_VAR_2} Puppets owned.\p"
+	.string "{FONT_NORMAL}Prof. Oak's rating:$"
 
 PokedexRating_Text_LessThan10::
 	.string "You still have lots to do.\p"
 	.string "Go into every patch of grass you\n"
-	.string "see and look for POKéMON!$"
+	.string "see and look for Puppets!$"
 
 PokedexRating_Text_LessThan20::
 	.string "It looks as if you're getting on\n"
 	.string "the right track!\p"
-	.string "I've given one of my AIDES a FLASH\n"
-	.string "HM. Make sure you go get it!$"
+	.string "I've given one of my Aides a Rock\n"
+	.string "Smash HM. Make sure you go get it!$"
 
 PokedexRating_Text_LessThan30::
-	.string "Your POKéDEX could use a bit more\n"
+	.string "Your iDollDex could use a bit more\n"
 	.string "volume still!\p"
 	.string "Try to catch other species of\n"
-	.string "POKéMON!$"
+	.string "Puppets!$"
 
 PokedexRating_Text_LessThan40::
 	.string "Good, it's apparent that you're\n"
 	.string "trying hard!\p"
-	.string "I've given one of my AIDES an\n"
-	.string "ITEMFINDER. Be sure to collect it!$"
+	.string "I've given one of my Aides an\n"
+	.string "Itemfinder. Be sure to collect it!$"
 
 PokedexRating_Text_LessThan50::
-	.string "Your POKéDEX is coming along quite\n"
+	.string "Your iDollDex is coming along quite\n"
 	.string "well!\p"
-	.string "I've given one of my AIDES an\n"
-	.string "AMULET COIN. Be sure to get it!$"
+	.string "I've given one of my Aides an\n"
+	.string "Amulet Coin. Be sure to get it!$"
 
 PokedexRating_Text_LessThan60::
 	.string "Ah, you've finally topped 50\n"
 	.string "species!\p"
-	.string "I've given one of my AIDES an EXP.\n"
+	.string "I've given one of my Aides an EXP.\n"
 	.string "SHARE. Be sure to go get it!$"
 
 PokedexRating_Text_LessThan70::

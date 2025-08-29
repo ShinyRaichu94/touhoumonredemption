@@ -34,3 +34,31 @@ SilphCo_2F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_24, SilphCo_2F_Text_Grunt2Intro, SilphCo_2F_Text_Grunt2Defeat
 	msgbox SilphCo_2F_Text_Grunt2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+SilphCo_2F_EventScript_WorkerM1::
+	msgbox SilphCo_2F_Text_DelayTheReleases, MSGBOX_NPC
+	end
+
+SilphCo_2F_EventScript_WorkerM2::
+	msgbox SilphCo_2F_Text_NoMasterOrbsInShops, MSGBOX_NPC
+	end
+
+SilphCo_2F_EventScript_WorkerM3::
+	msgbox SilphCo_2F_Text_ThanksForSavingSilphCo, MSGBOX_NPC
+	end
+
+SilphCo_2F_EventScript_WorkerM4::
+	msgbox SilphCo_2F_Text_MyCTokiko, MSGBOX_NPC
+	end
+
+SilphCo_2F_EventScript_WorkerM5::
+	msgbox SilphCo_2F_Text_ADayOff, MSGBOX_NPC
+	end
+
+SilphCo_2F_EventScript_WorkerF1::
+	msgbox SilphCo_2F_Text_MakeASecuritySystem, MSGBOX_NPC
+	end
+
+SilphCo_2F_EventScript_WorkerF2::
+	msgbox SilphCo_2F_Text_TeamRocketBossThreatning, MSGBOX_NPC
+	end

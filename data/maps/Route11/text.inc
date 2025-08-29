@@ -111,3 +111,35 @@ Route11_Text_DavePostBattle::
 Route11_Text_DiglettsCave::
     .string "DIGLETT'S CAVE$"
 
+Route11_Text_KaiIntro::
+    .string "Kai: Our Puppets have the\n"
+    .string "power and guts to face anybody!$"
+
+Route11_Text_KaiDefeat::
+    .string "Kai: You're too much for\n"
+    .string "us to face!$"
+
+Route11_Text_KaiPostBattle::
+    .string "Kai: We should've train at the\n"
+    .string "Fighting Dojo in Saffron City.$"
+
+Route11_Text_KaiNotEnoughMons::
+    .string "Kai: Heh…\p"
+    .string "You can't face us if you\n"
+    .string "only have one Puppet with you.$"
+
+Route11_Text_AdaIntro::
+    .string "Ada: We'll destroy your team\n"
+    .string "with all of our strength!$"
+
+Route11_Text_AdaDefeat::
+    .string "Ada: We've been destroyed…$"
+
+Route11_Text_AdaPostBattle::
+    .string "Ada: We've been training and we're\n"
+    .string "still not strong enough…$"
+
+Route11_Text_AdaNotEnoughMons::
+    .string "Ada: It'll be way too easy for us\n"
+    .string "to fight you if you only have one\l"
+    .string "Puppet.$"

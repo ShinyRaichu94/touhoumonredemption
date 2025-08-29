@@ -92,3 +92,10 @@ SilphCo_11F_Text_FloorSign::
     .string "SILPH CO. HEAD OFFICE\n"
     .string "11F$"
 
+SilphCo_11F_Text_DoYouHaveAnAppointment::
+    .string "Excuse me.\p"
+    .string "Do you have an appointment\n"
+    .string "to see the president?\p"
+    .string "Oh, you're {PLAYER}!\n"
+    .string "My apologies!\p"
+    .string "Please, go right ahead.$"

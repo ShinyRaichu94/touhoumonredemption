@@ -44,3 +44,13 @@ MtMoon_1F_EventScript_Robby::
 	trainerbattle_single TRAINER_BUG_CATCHER_ROBBY, MtMoon_1F_Text_RobbyIntro, MtMoon_1F_Text_RobbyDefeat
 	msgbox MtMoon_1F_Text_RobbyPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+MtMoon_1F_EventScript_Liz::
+	trainerbattle_double TRAINER_AQUA_GRUNT_M, MtMoon_1F_Text_LizIntro, MtMoon_1F_Text_LizDefeat, MtMoon_1F_Text_LizNotEnoughMons
+	msgbox MtMoon_1F_Text_LizPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtMoon_1F_EventScript_Liv::
+	trainerbattle_double TRAINER_AQUA_GRUNT_M, MtMoon_1F_Text_LivIntro, MtMoon_1F_Text_LivDefeat, MtMoon_1F_Text_LivNotEnoughMons
+	msgbox MtMoon_1F_Text_LivPostBattle, MSGBOX_AUTOCLOSE
+	end

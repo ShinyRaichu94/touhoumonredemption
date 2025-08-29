@@ -70,6 +70,20 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SilphCo_3F_EventScript_ItemHyperPotion",
       "flag": "FLAG_HIDE_SILPH_CO_3F_HYPER_POTION"
+    },
+    {
+      "type": "object",
+      "graphics_id": "OBJ_EVENT_GFX_MAN",
+      "x": 21,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_RIGHT_AND_LEFT",
+      "movement_range_x": 5,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SilphCo_3F_EventScript_WorkerM2",
+      "flag": "FLAG_HIDE_SAFFRON_CIVILIANS"
     }
   ],
   "warp_events": [

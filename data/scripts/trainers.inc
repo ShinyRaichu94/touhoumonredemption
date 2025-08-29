@@ -478,6 +478,30 @@ Route11_EventScript_DarianRematch::
 	msgbox Route11_Text_DarianPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route11_EventScript_Kai::
+	trainerbattle_double TRAINER_AQUA_GRUNT_F, Route11_Text_KaiIntro, Route11_Text_KaiDefeat, Route11_Text_KaiNotEnoughMons
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route11_EventScript_KaiRematch
+	msgbox Route11_Text_KaiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route11_EventScript_KaiRematch::
+	trainerbattle_rematch_double TRAINER_AQUA_GRUNT_F, Route11_Text_KaiRematchIntro, Route11_Text_KaiDefeat, Route11_Text_KaiNotEnoughMons
+	msgbox Route11_Text_KaiPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route11_EventScript_Ada::
+	trainerbattle_double TRAINER_AQUA_GRUNT_F, Route11_Text_AdaIntro, Route11_Text_AdaDefeat, Route11_Text_AdaNotEnoughMons
+	specialvar VAR_RESULT, ShouldTryRematchBattle
+	goto_if_eq VAR_RESULT, TRUE, Route11_EventScript_AdaRematch
+	msgbox Route11_Text_AdaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route11_EventScript_AdaRematch::
+	trainerbattle_rematch_double TRAINER_AQUA_GRUNT_F, Route11_Text_AdaRematchIntro, Route11_Text_AdaDefeat, Route11_Text_AdaNotEnoughMons
+	msgbox Route11_Text_AdaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route9_EventScript_Brent::
 	trainerbattle_single TRAINER_BUG_CATCHER_BRENT, Route9_Text_BrentIntro, Route9_Text_BrentDefeat
 	specialvar VAR_RESULT, ShouldTryRematchBattle

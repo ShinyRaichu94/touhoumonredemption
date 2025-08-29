@@ -42,3 +42,13 @@ VictoryRoad_1F_EventScript_Rolando::
 	trainerbattle_single TRAINER_COOLTRAINER_ROLANDO, VictoryRoad_1F_Text_RolandoIntro, VictoryRoad_1F_Text_RolandoDefeat
 	msgbox VictoryRoad_1F_Text_RolandoPostBattle, MSGBOX_AUTOCLOSE
 	end
+	
+VictoryRoad_1F_EventScript_Jay::
+	trainerbattle_single TRAINER_INTERVIEWER, VictoryRoad_1F_Text_JayIntro, VictoryRoad_1F_Text_JayDefeat
+	msgbox VictoryRoad_1F_Text_JayPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+VictoryRoad_1F_EventScript_Kathy::
+	trainerbattle_single TRAINER_RS_TUBER_F, VictoryRoad_1F_Text_KathyIntro, VictoryRoad_1F_Text_KathyDefeat
+	msgbox VictoryRoad_1F_Text_KathyPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -40,3 +40,13 @@ RockTunnel_B1F_EventScript_Winston::
 	trainerbattle_single TRAINER_POKEMANIAC_WINSTON, RockTunnel_B1F_Text_WinstonIntro, RockTunnel_B1F_Text_WinstonDefeat
 	msgbox RockTunnel_B1F_Text_WinstonPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RockTunnel_B1F_EventScript_Kugo::
+	trainerbattle_double TRAINER_RS_AROMA_LADY, RockTunnel_B1F_Text_KugoIntro, RockTunnel_B1F_Text_KugoDefeat, RockTunnel_B1F_Text_KugoNotEnoughMons
+	msgbox RockTunnel_B1F_Text_KugoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+RockTunnel_B1F_EventScript_Mae::
+	trainerbattle_double TRAINER_RS_AROMA_LADY, RockTunnel_B1F_Text_MaeIntro, RockTunnel_B1F_Text_MaeDefeat, RockTunnel_B1F_Text_MaeNotEnoughMons
+	msgbox RockTunnel_B1F_Text_MaePostBattle, MSGBOX_AUTOCLOSE
+	end

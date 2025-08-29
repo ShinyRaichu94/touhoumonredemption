@@ -4,12 +4,12 @@ VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "charge the battery: {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_NoTrainersWithinRange::
-	.string "There are no TRAINERS within range\n"
+	.string "There are no Trainers within range\n"
 	.string "who can battle…\p"
 	.string "The VS SEEKER was turned off.{PAUSE_UNTIL_PRESS}$"
 
 VSSeeker_Text_TrainersNotReady::
-	.string "The other TRAINERS don't appear\n"
+	.string "The other Trainers don't appear\n"
 	.string "to be ready for battle.\p"
 	.string "Let's wait till later.{PAUSE_UNTIL_PRESS}$"
 
@@ -234,6 +234,16 @@ Route11_Text_DaveRematchIntro::
 	.string "I raised my POKéMON carefully.\n"
 	.string "They should be ready by now.\l"
 	.string "This time, they should win, too.$"
+
+Route11_Text_KaiRematchIntro::
+	.string "Kai: Our Puppets now have the\n"
+    .string "power and guts to face anybody,\l"
+	.string "unlike last time!$"
+
+Route11_Text_AdaRematchIntro::
+	.string "Ada: We'll destroy your team\n"
+    .string "with all of our strength for\l"
+	.string "real, this time!$"
 
 Route12_Text_NedRematchIntro::
 	.string "Yeah!\n"

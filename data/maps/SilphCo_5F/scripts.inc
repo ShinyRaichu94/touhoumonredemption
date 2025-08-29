@@ -56,3 +56,8 @@ SilphCo_5F_EventScript_Dalton::
 	trainerbattle_single TRAINER_JUGGLER_DALTON, SilphCo_5F_Text_DaltonIntro, SilphCo_5F_Text_DaltonDefeat
 	msgbox SilphCo_5F_Text_DaltonPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+SilphCo_5F_EventScript_Kyle::
+	trainerbattle_single TRAINER_RS_RUIN_MANIAC, SilphCo_5F_Text_KyleIntro, SilphCo_5F_Text_KyleDefeat
+	msgbox SilphCo_5F_Text_KylePostBattle, MSGBOX_AUTOCLOSE
+	end
