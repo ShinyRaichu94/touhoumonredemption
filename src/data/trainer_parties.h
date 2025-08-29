@@ -943,13 +943,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_SailorDwayne[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_CamperLiam[] = {
     {
         .iv = 0,
-        .lvl = 10,
+        .lvl = 9,
         .species = SPECIES_DIGLETT,
         .moves = {MOVE_POISON_STING, MOVE_DEFENSE_CURL, MOVE_NONE, MOVE_NONE},
     },
     {
         .iv = 0,
-        .lvl = 11,
+        .lvl = 9,
         .species = SPECIES_VULPIX,
         .moves = {MOVE_KARATE_CHOP, MOVE_SEISMIC_TOSS, MOVE_NONE, MOVE_NONE},
     },
@@ -5689,14 +5689,14 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
 static const struct TrainerMonItemCustomMoves sParty_LeaderBrock[] = {
     {
         .iv = 0,
-        .lvl = 12,
+        .lvl = 10,
         .species = SPECIES_VULPIX,
         .heldItem = ITEM_NONE,
         .moves = {MOVE_KARATE_CHOP, MOVE_MIST, MOVE_ROCK_TOMB, MOVE_NONE},
     },
     {
         .iv = 0,
-        .lvl = 14,
+        .lvl = 12,
         .species = SPECIES_MACHOP,
         .heldItem = ITEM_ORAN_BERRY,
         .moves = {MOVE_KARATE_CHOP, MOVE_ROCK_TOMB, MOVE_NONE, MOVE_NONE},
