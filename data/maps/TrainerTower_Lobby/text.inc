@@ -118,3 +118,42 @@ TrainerTower_Lobby_Text_StairsTougherThanAnyBattle::
     .string "Never mind battling! These stairs…\n"
     .string "They're tougher than any battle…$"
 
+TrainerTower_Lobby_Text_TeachMonMoveForRedUFO::
+    .string "You can call me the Puppet Move\n"
+    .string "Expert.\p"
+    .string "I know the moves that your Puppets\n"
+    .string "can learn that are not by leveling\l"
+    .string "up or by using TMs.\p"
+    .string "I can teach one of your Puppets\n"
+    .string "a move that they're able to learn.\p"
+    .string "But, it'll cost you one Red UFO.$"
+
+TrainerTower_Lobby_Text_WantMeToTeachMove::
+    .string "Hm?\n"
+    .string "You have a Red UFO?\p"
+    .string "So, you want me to teach a move\n"
+    .string "to one of your Puppets?$"
+
+TrainerTower_Lobby_Text_TutorWhichMon::
+    .string "Which Puppet needs tutoring?$"
+
+TrainerTower_Lobby_Text_TeachWhichMove::
+    .string "Which move should I teach?$"
+
+TrainerTower_Lobby_Text_NoMoveICanTeachThatMon::
+    .string "Sorry…\p"
+    .string "It doesn't appear as if I have a\n"
+    .string "move I can teach that Puppet.$"
+
+TrainerTower_Lobby_Text_HandedOverOneRedUFO::
+    .string "{PLAYER} handed over one\n"
+    .string "Red UFO in exchange.$"
+
+TrainerTower_Lobby_Text_NeedRedUFOToLearnMove::
+    .string "If you want one of your Puppets\n"
+    .string "to learn a certain move, bring\l"
+    .string "me a Red UFO.$"
+
+TrainerTower_Lobby_Text_CantTeachAnEgg::
+    .string "Huh? How can I teach an Egg\n"
+    .string "a move?$"

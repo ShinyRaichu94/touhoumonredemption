@@ -220,3 +220,78 @@ TrainerTower_Lobby_EventScript_CooltrainerF::
 TrainerTower_Lobby_EventScript_BaldingMan::
 	msgbox TrainerTower_Lobby_Text_StairsTougherThanAnyBattle, MSGBOX_NPC
 	end
+
+TrainerTower_Lobby_EventScript_MoveManiac::
+	goto_if_questlog EventScript_ReleaseEnd
+	special QuestLog_CutRecording
+	setflag FLAG_EGG_MOVES_TUTOR
+	lock
+	faceplayer
+	clearflag HAS_BIG_MUSHROOM
+	clearflag HAS_TINY_MUSHROOMS
+	clearflag HAS_BOTH_MUSHROOMS
+	goto_if_set CHECKED_MUSHROOMS, TrainerTower_Lobby_EventScript_CheckPlayerHasMushrooms
+	msgbox TrainerTower_Lobby_Text_TeachMonMoveForRedUFO
+	setflag CHECKED_MUSHROOMS
+	goto TrainerTower_Lobby_EventScript_CheckPlayerHasMushrooms
+	end
+
+TrainerTower_Lobby_EventScript_CheckPlayerHasMushrooms::
+	checkitem ITEM_BIG_MUSHROOM
+	call_if_eq VAR_RESULT, TRUE, TrainerTower_Lobby_EventScript_SetHasBigMushroom
+	goto_if_set HAS_BIG_MUSHROOM, TrainerTower_Lobby_EventScript_AskTutorMon
+	goto TrainerTower_Lobby_EventScript_EndTutorMove
+	end
+
+TrainerTower_Lobby_EventScript_AskTutorMon::
+	msgbox TrainerTower_Lobby_Text_WantMeToTeachMove, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, TrainerTower_Lobby_EventScript_EndTutorMove
+	goto TrainerTower_Lobby_EventScript_ChooseMonToTutor
+	end
+
+TrainerTower_Lobby_EventScript_ChooseMonToTutor::
+	msgbox TrainerTower_Lobby_Text_TutorWhichMon
+	special ChooseMonForMoveRelearner
+	waitstate
+	goto_if_ge VAR_0x8004, PARTY_SIZE, TrainerTower_Lobby_EventScript_EndTutorMove
+	special IsSelectedMonEgg
+	goto_if_eq VAR_RESULT, TRUE, TrainerTower_Lobby_EventScript_CantTutorEgg
+	goto_if_eq VAR_0x8005, 0, TrainerTower_Lobby_EventScript_NoMoveToTutorMon
+	goto TrainerTower_Lobby_EventScript_ChooseMoveToTeach
+	end
+
+TrainerTower_Lobby_EventScript_ChooseMoveToTeach::
+	msgbox TrainerTower_Lobby_Text_TeachWhichMove
+	special TeachMoveRelearnerMove
+	waitstate
+	goto_if_eq VAR_0x8004, 0, TrainerTower_Lobby_EventScript_ChooseMonToTutor
+	goto TrainerTower_Lobby_EventScript_GiveBigMushroom
+	end
+
+TrainerTower_Lobby_EventScript_GiveBigMushroom::
+	removeitem ITEM_BIG_MUSHROOM
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	msgbox TrainerTower_Lobby_Text_HandedOverOneRedUFO
+	call EventScript_RestorePrevTextColor
+	goto TrainerTower_Lobby_EventScript_EndTutorMove
+	end
+
+TrainerTower_Lobby_EventScript_NoMoveToTutorMon::
+	msgbox TrainerTower_Lobby_Text_NoMoveICanTeachThatMon
+	goto TrainerTower_Lobby_EventScript_ChooseMonToTutor
+	end
+
+TrainerTower_Lobby_EventScript_CantTutorEgg::
+	msgbox TrainerTower_Lobby_Text_CantTeachAnEgg
+	goto TrainerTower_Lobby_EventScript_ChooseMonToTutor
+	end
+
+TrainerTower_Lobby_EventScript_EndTutorMove::
+	msgbox TrainerTower_Lobby_Text_NeedRedUFOToLearnMove
+	clearflag FLAG_EGG_MOVES_TUTOR
+	release
+	end
+
+TrainerTower_Lobby_EventScript_SetHasBigMushroom::
+	setflag HAS_BIG_MUSHROOM
+	return

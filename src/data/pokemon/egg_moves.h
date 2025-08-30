@@ -4,14 +4,14 @@
 
 const u16 gEggMoves[] = {
     egg_moves(BULBASAUR,
-              MOVE_LIGHT_SCREEN,
-              MOVE_SKULL_BASH,
-              MOVE_SAFEGUARD,
-              MOVE_CHARM,
-              MOVE_PETAL_DANCE,
-              MOVE_MAGICAL_LEAF,
-              MOVE_GRASS_WHISTLE,
-              MOVE_CURSE),
+              MOVE_REFRESH,
+              MOVE_HARDEN,
+              MOVE_WEATHER_BALL,
+              MOVE_ARM_THRUST,
+              MOVE_FORESIGHT,
+              MOVE_MIST,
+              MOVE_THUNDER_WAVE,
+              MOVE_SWIFT),
 
     egg_moves(CHARMANDER,
               MOVE_BELLY_DRUM,
