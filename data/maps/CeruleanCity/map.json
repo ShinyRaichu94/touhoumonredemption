@@ -204,6 +204,22 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CeruleanCity_EventScript_CeruleanCaveGuard",
       "flag": "FLAG_HIDE_CERULEAN_CAVE_GUARD"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+      "x": 49,
+      "y": 18,
+      "target_local_id": "LOCALID_ROUTE_9_YOUNGSTER",
+      "target_map": "MAP_ROUTE9"
+    },
+    {
+      "type": "clone",
+      "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
+      "x": 49,
+      "y": 19,
+      "target_local_id": "LOCALID_ROUTE_9_YOUNGSTER2",
+      "target_map": "MAP_ROUTE9"
     }
   ],
   "warp_events": [

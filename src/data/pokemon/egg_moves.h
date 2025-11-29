@@ -13,6 +13,16 @@ const u16 gEggMoves[] = {
               MOVE_THUNDER_WAVE,
               MOVE_SWIFT),
 
+    egg_moves(IVYSAUR,
+              MOVE_REFRESH,
+              MOVE_HARDEN,
+              MOVE_WEATHER_BALL,
+              MOVE_ARM_THRUST,
+              MOVE_FORESIGHT,
+              MOVE_MIST,
+              MOVE_THUNDER_WAVE,
+              MOVE_SWIFT),
+
     egg_moves(CHARMANDER,
               MOVE_BELLY_DRUM,
               MOVE_ANCIENT_POWER,

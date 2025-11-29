@@ -39,7 +39,7 @@ MtMoon_1F_EventScript_ItemEscapeRope::
 	end
 
 MtMoon_1F_EventScript_ItemMoonStone::
-	finditem ITEM_MOON_STONE
+	finditem ITEM_TINY_MUSHROOM
 	end
 
 MtMoon_B2F_EventScript_ItemStarPiece::
@@ -107,7 +107,7 @@ RocketHideout_B2F_EventScript_ItemXSpeed::
 	end
 
 RocketHideout_B2F_EventScript_ItemMoonStone::
-	finditem ITEM_MOON_STONE
+	finditem ITEM_TECH_SHARD
 	end
 
 RocketHideout_B2F_EventScript_ItemTM12::

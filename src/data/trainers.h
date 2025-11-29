@@ -4,7 +4,7 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_AQUA_LEADER] = { // Team Rocket Ariana (Mt. Moon)
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
         .trainerName = _("Ariana"),
         .items = {},
@@ -124,7 +124,7 @@ const struct Trainer gTrainers[] = {
     },
     [TRAINER_RS_BEAUTY] = { // Team Rocket Admin Ariana (Puppet Tower)
         .trainerClass = TRAINER_CLASS_TEAM_ROCKET,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_AQUA | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_ROCKET_GRUNT_F,
         .trainerName = _("Ariana"),
         .items = {},
@@ -4146,11 +4146,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE | F_TRAINER_FEMALE,
         .trainerPic = TRAINER_PIC_LEADER_MISTY,
-        .trainerName = _("MISTY"),
-        .items = {ITEM_SUPER_POTION},
+        .trainerName = _("Misty"),
+        .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_LeaderMisty),
+        .party = ITEM_CUSTOM_MOVES(sParty_LeaderMisty),
     },
     [TRAINER_LEADER_LT_SURGE] = {
         .trainerClass = TRAINER_CLASS_LEADER,

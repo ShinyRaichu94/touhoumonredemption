@@ -111,7 +111,7 @@ static const u32 *const sItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_WATER_STONE]    = {gItemIcon_WaterStone, gItemIconPalette_WaterStone},
     [ITEM_LEAF_STONE]     = {gItemIcon_LeafStone, gItemIconPalette_LeafStone},
     // ????????
-    [ITEM_063]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
+    [ITEM_TECH_SHARD]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_064]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_065]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},
     [ITEM_066]            = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark},

@@ -132,7 +132,7 @@
 #define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER             0x074
 #define FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE          0x075
 #define FLAG_HIDE_LOSTELLE_IN_HER_HOME                     0x076
-#define FLAG_HIDE_ARIANA_IN_MTMOON                         0x077
+#define FLAG_0x077										   0x077
 #define FLAG_HIDE_ROUTE_9_YOUNGSTERS                       0x078
 #define FLAG_HIDE_THREE_ISLAND_BIKERS                      0x079
 #define FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST                 0x07A
@@ -211,7 +211,7 @@
 #define FLAG_0x0C1               0x0C1
 #define FLAG_0x0C2               0x0C2
 #define FLAG_EGG_MOVES_TUTOR               0x0C3
-#define FLAG_0x0C4               0x0C4
+#define FLAG_HIDE_ARIANA_IN_MTMOON               0x0C4
 #define FLAG_0x0C5               0x0C5
 #define FLAG_0x0C6               0x0C6
 #define FLAG_0x0C7               0x0C7
@@ -831,7 +831,7 @@
 #define FLAG_0x322               0x322
 #define FLAG_0x323               0x323
 #define FLAG_0x324               0x324
-#define FLAG_0x325               0x325
+#define FLAG_NO_NUGGET_DUPLICATE               0x325
 #define FLAG_0x326               0x326
 #define FLAG_0x327               0x327
 #define FLAG_0x328               0x328

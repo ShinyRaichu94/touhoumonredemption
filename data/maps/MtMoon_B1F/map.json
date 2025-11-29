@@ -110,7 +110,7 @@
       "x": 24,
       "y": 35,
       "elevation": 0,
-      "item": "ITEM_BIG_MUSHROOM",
+      "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_MT_MOON_B1F_BIG_MUSHROOM",
       "quantity": 1,
       "underfoot": false
@@ -120,7 +120,7 @@
       "x": 6,
       "y": 12,
       "elevation": 0,
-      "item": "ITEM_BIG_MUSHROOM",
+      "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_MT_MOON_B1F_BIG_MUSHROOM_2",
       "quantity": 1,
       "underfoot": false
@@ -130,7 +130,7 @@
       "x": 25,
       "y": 34,
       "elevation": 0,
-      "item": "ITEM_BIG_MUSHROOM",
+      "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_MT_MOON_B1F_BIG_MUSHROOM_3",
       "quantity": 1,
       "underfoot": false

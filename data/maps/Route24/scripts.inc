@@ -40,15 +40,20 @@ Route24_EventScript_RocketTrigger::
 	call_if_eq VAR_TEMP_1, 1, Route24_EventScript_RocketMotionToPlayer
 	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
-	msgbox Route24_Text_JustEarnedFabulousPrize
-	checkitemspace ITEM_NUGGET
-	goto_if_eq VAR_RESULT, FALSE, Route24_EventScript_NoRoomForNuggetTrigger
+	call_if_unset FLAG_NO_NUGGET_DUPLICATE, Route24_EventScript_GiveNuggetToPlayer
 	call Route24_EventScript_BattleRocket
 	releaseall
 	end
 
-Route24_EventScript_BattleRocket::
+Route24_EventScript_GiveNuggetToPlayer::
+	msgbox Route24_Text_JustEarnedFabulousPrize
+	checkitemspace ITEM_NUGGET
+	goto_if_eq VAR_RESULT, FALSE, Route24_EventScript_NoRoomForNuggetTrigger
 	giveitem_msg Route24_Text_ReceivedNuggetFromMysteryTrainer, ITEM_NUGGET
+	setflag FLAG_NO_NUGGET_DUPLICATE
+	return
+
+Route24_EventScript_BattleRocket::
 	message Route24_Text_JoinTeamRocket
 	waitmessage
 	playbgm MUS_ENCOUNTER_ROCKET, 0

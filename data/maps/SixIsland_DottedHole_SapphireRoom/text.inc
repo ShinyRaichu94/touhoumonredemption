@@ -18,7 +18,7 @@ SixIsland_DottedHole_SapphireRoom_Text_SellToTeamRocketTellPassword::
     .string "passwords to TEAM ROCKET's\l"
     .string "WAREHOUSE.\p"
     .string "The WAREHOUSE password I know is\n"
-    .string "“Yes, nah, CHANSEY.”\p"
+    .string "“OK, Iron. I'm Minoriko.”\p"
     .string "I'm done.\n"
     .string "Don't think badly of me!$"
 

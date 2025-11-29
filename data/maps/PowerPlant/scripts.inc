@@ -72,9 +72,9 @@ PowerPlant_EventScript_Electrode1::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-	setwildbattle SPECIES_ELECTRODE, 34
+	setwildbattle SPECIES_SUNFLORA, 42
 	waitse
-	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_SUNFLORA, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
@@ -98,9 +98,9 @@ PowerPlant_EventScript_Electrode2::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-	setwildbattle SPECIES_ELECTRODE, 34
+	setwildbattle SPECIES_SUNFLORA, 42
 	waitse
-	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_SUNFLORA, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE

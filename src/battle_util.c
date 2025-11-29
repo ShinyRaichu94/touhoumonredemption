@@ -1608,7 +1608,7 @@ enum
     CASTFORM_TO_ICE,
 };
 
-u8 CastformDataTypeChange(u8 battler)
+/*u8 CastformDataTypeChange(u8 battler)
 {
     u8 formChange = 0;
     if (gBattleMons[battler].species != SPECIES_CASTFORM || gBattleMons[battler].ability != ABILITY_FORECAST || gBattleMons[battler].hp == 0)
@@ -1641,7 +1641,7 @@ u8 CastformDataTypeChange(u8 battler)
         formChange = CASTFORM_TO_ICE;
     }
     return formChange;
-}
+}*/
 
 u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveArg)
 {
@@ -3134,8 +3134,8 @@ static bool32 IsBattlerModernFatefulEncounter(u8 battlerId)
 {
     if (GetBattlerSide(battlerId) == B_SIDE_OPPONENT)
         return TRUE;
-    if (GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS
-        && GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_MEW)
+    if (GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_AYAKASHI
+        && GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_SATSUKI)
             return TRUE;
     return GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_MODERN_FATEFUL_ENCOUNTER, NULL);
 }

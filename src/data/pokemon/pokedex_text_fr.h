@@ -489,16 +489,16 @@ const u8 gBellsproutPokedexText[] = _(
 const u8 gBellsproutPokedexTextUnused[] = _("");
 
 const u8 gWeepinbellPokedexText[] = _(
-    "The leafy parts act as cutters for\n"
-    "slashing foes. It spits a fluid that\n"
-    "dissolves everything.");
+    "Parsee's jealousy is irrational. She\n"
+    "usually gets jealous of someone if she\n"
+    "thinks they're happier than she is.");
 
 const u8 gWeepinbellPokedexTextUnused[] = _("");
 
 const u8 gVictreebelPokedexText[] = _(
-    "Lures prey into its mouth with a honeylike\n"
-    "aroma. The helpless prey is melted with\n"
-    "a dissolving fluid.");
+    "Her power of controlling jealousy in\n"
+    "others can break the balance of their\n"
+    "spirit and the rhythm of their life.");
 
 const u8 gVictreebelPokedexTextUnused[] = _("");
 
@@ -517,16 +517,16 @@ const u8 gTentacruelPokedexText[] = _(
 const u8 gTentacruelPokedexTextUnused[] = _("");
 
 const u8 gGeodudePokedexText[] = _(
-    "Its round form makes it easy to pick up.\n"
-    "Some people have used them to hurl\n"
-    "at each other in a snowball fight.");
+    "She usually spends her time hiding in\n"
+    "dark places. She may be shy, but she's\n"
+    "also cruel and violent.");
 
 const u8 gGeodudePokedexTextUnused[] = _("");
 
 const u8 gGravelerPokedexText[] = _(
-    "Be careful while hiking on mountain trails.\n"
-    "GRAVELER may come rolling down the path\n"
-    "without slowing.");
+    "Years ago, there are skeleton bones near\n"
+    "a well. Kisume might be in that well and\n"
+    "throws bones at a human she sees.");
 
 const u8 gGravelerPokedexTextUnused[] = _("");
 
@@ -839,16 +839,16 @@ const u8 gSeakingPokedexText[] = _(
 const u8 gSeakingPokedexTextUnused[] = _("");
 
 const u8 gStaryuPokedexText[] = _(
-    "It appears in large numbers by seashores.\n"
-    "At night, its central core flashes with a\n"
-    "red light.");
+    "Her umbrella can be used to scatter\n"
+    "flower petals to perform graceful attacks\n"
+    "as combat.");
 
 const u8 gStaryuPokedexTextUnused[] = _("");
 
 const u8 gStarmiePokedexText[] = _(
-    "This POKéMON has a geometric body.\n"
-    "Because of its body, the locals suspect\n"
-    "that it is an alien creature.");
+    "She is usually seen in places filled\n"
+    "with flowers. If anybody disturbs her,\n"
+    "she eliminates them with great power.");
 
 const u8 gStarmiePokedexTextUnused[] = _("");
 
@@ -1383,16 +1383,16 @@ const u8 gEspeonPokedexText[] = _(
 const u8 gEspeonPokedexTextUnused[] = _("");
 
 const u8 gUmbreonPokedexText[] = _(
-    "When darkness falls, the rings on its body\n"
-    "begin to glow, striking fear in the hearts\n"
-    "of anyone nearby.");
+    "Kurumi is the gatekeeper of the Lake of\n"
+    "Blood's entrance. Her job is to keep\n"
+    "intruders out.");
 
 const u8 gUmbreonPokedexTextUnused[] = _("");
 
 const u8 gMurkrowPokedexText[] = _(
-    "It is said that when chased, it lures its\n"
-    "attacker onto dark mountain trails where\n"
-    "the foe will get lost.");
+    "She usually defeats every intruder who\n"
+    "tries to enter the Lake of Blood, but she\n"
+    "was easily defeated by Reimu and Marisa.");
 
 const u8 gMurkrowPokedexTextUnused[] = _("");
 
@@ -2482,16 +2482,16 @@ const u8 gKecleonPokedexText[] = _(
 const u8 gKecleonPokedexTextUnused[] = _("");
 
 const u8 gShuppetPokedexText[] = _(
-    "It loves to feed on feelings like envy and\n"
-    "malice. Its upright horn catches the\n"
-    "emotions of people.");
+    "She embodies mountain echoes. But due to\n"
+    "her echoes no longer seen as an aspect,\n"
+    "she now serves the Myouren Temple.");
 
 const u8 gShuppetPokedexTextUnused[] = _("");
 
 const u8 gBanettePokedexText[] = _(
-    "Strong feelings of hatred turned a puppet\n"
-    "into a POKéMON. If it opens its mouth,\n"
-    "its cursed energy escapes.");
+    "She is a buddhist priest in-training at\n"
+    "the Myouren Temple. She usually sweeps\n"
+    "the main gate every morning.");
 
 const u8 gBanettePokedexTextUnused[] = _("");
 

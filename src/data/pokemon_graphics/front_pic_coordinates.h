@@ -137,13 +137,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_SANDSHREW] =
     {
-        .size = MON_COORDS_SIZE(40, 48),
-        .y_offset = 11,
+        .size = 0x75,
+		.y_offset = 6,
     },
     [SPECIES_SANDSLASH] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 6,
+        .size = 0x87,
+		.y_offset = 1,
     },
     [SPECIES_NIDORAN_F] =
     {
@@ -352,13 +352,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_WEEPINBELL] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 11,
+        .size = 0x55,
+		.y_offset = 5,
     },
     [SPECIES_VICTREEBEL] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 5,
+        .size = 0x88,
+		.y_offset = 2,
     },
     [SPECIES_TENTACOOL] =
     {
@@ -372,13 +372,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_GEODUDE] =
     {
-        .size = MON_COORDS_SIZE(56, 32),
-        .y_offset = 18,
+        .size = 0x44,
+		.y_offset = 14,
     },
     [SPECIES_GRAVELER] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
-        .y_offset = 11,
+        .size = 0x66,
+		.y_offset = 11,
     },
     [SPECIES_GOLEM] =
     {
@@ -602,13 +602,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_STARYU] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 13,
+        .size = 0x47,
+		.y_offset = 4,
     },
     [SPECIES_STARMIE] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 10,
+        .size = 0x58,
+		.y_offset = 1,
     },
     [SPECIES_MR_MIME] =
     {
@@ -987,13 +987,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_UMBREON] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 8,
+        .size = 0x66,
+		.y_offset = 3,
     },
     [SPECIES_MURKROW] =
     {
-        .size = MON_COORDS_SIZE(48, 48),
-        .y_offset = 11,
+        .size = 0x87,
+		.y_offset = 3,
     },
     [SPECIES_SLOWKING] =
     {
@@ -1887,13 +1887,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_SHUPPET] =
     {
-        .size = MON_COORDS_SIZE(40, 48),
-        .y_offset = 14,
+        .size = 0x46,
+		.y_offset = 0,
     },
     [SPECIES_BANETTE] =
     {
-        .size = MON_COORDS_SIZE(40, 40),
-        .y_offset = 12,
+        .size = 0x58,
+		.y_offset = 0,
     },
     [SPECIES_SEVIPER] =
     {

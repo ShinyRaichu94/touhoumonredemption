@@ -300,7 +300,7 @@ static void DoTrainerBattle(void)
 
 void StartOldManTutorialBattle(void)
 {
-    CreateMaleMon(&gEnemyParty[0], SPECIES_WEEDLE, 5);
+    CreateMaleMon(&gEnemyParty[0], SPECIES_CNAZRIN, 5);
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;
     gBattleTypeFlags = BATTLE_TYPE_OLD_MAN_TUTORIAL;
@@ -356,17 +356,20 @@ void StartLegendaryBattle(void)
     species = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES);
     switch (species)
     {
-    case SPECIES_MEWTWO:
+    case SPECIES_KONNGARA:
+    case SPECIES_SARIEL:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_MEWTWO);
         break;
-    case SPECIES_DEOXYS:
+    case SPECIES_AYAKASHI:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_DEOXYS);
         break;
-    case SPECIES_MOLTRES:
-    case SPECIES_ARTICUNO:
-    case SPECIES_ZAPDOS:
-    case SPECIES_HO_OH:
-    case SPECIES_LUGIA:
+    case SPECIES_KIKURI:
+    case SPECIES_YUUGEN:
+    case SPECIES_ELIS:
+    case SPECIES_MIMA:
+    case SPECIES_XUTSUHO:
+    case SPECIES_XSUWAKO:
+    case SPECIES_XKANAKO:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_LEGEND);
         break;
     default:

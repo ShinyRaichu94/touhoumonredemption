@@ -84,13 +84,13 @@ void ClearRoamerData(void)
     switch (GetStarterSpecies())\
     {\
     default:\
-        a = SPECIES_RAIKOU;\
+        a = SPECIES_SHINGYOKUO;\
         break;\
-    case SPECIES_BULBASAUR:\
-        a = SPECIES_ENTEI;\
+    case SPECIES_CSANAE:\
+        a = SPECIES_SHINGYOKUM;\
         break;\
-    case SPECIES_CHARMANDER:\
-        a = SPECIES_SUICUNE;\
+    case SPECIES_CALICE:\
+        a = SPECIES_SHINGYOKUF;\
         break;\
     }\
     a;\

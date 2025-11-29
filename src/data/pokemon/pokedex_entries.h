@@ -353,9 +353,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SANDSHREW] =
     {
-        .categoryName = _("MOUSE"),
+        .categoryName = _("DARKNESS"),
         .height = 6,
-        .weight = 120,
+        .weight = 100,
         .description = gSandshrewPokedexText,
         .unusedDescription = gSandshrewPokedexTextUnused,
         .pokemonScale = 370,
@@ -366,9 +366,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SANDSLASH] =
     {
-        .categoryName = _("MOUSE"),
+        .categoryName = _("DARKNESS"),
         .height = 10,
-        .weight = 295,
+        .weight = 500,
         .description = gSandslashPokedexText,
         .unusedDescription = gSandslashPokedexTextUnused,
         .pokemonScale = 341,
@@ -912,9 +912,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_WEEPINBELL] =
     {
-        .categoryName = _("FLYCATCHER"),
+        .categoryName = _("JEALOUSY"),
         .height = 10,
-        .weight = 64,
+        .weight = 100,
         .description = gWeepinbellPokedexText,
         .unusedDescription = gWeepinbellPokedexTextUnused,
         .pokemonScale = 256,
@@ -925,9 +925,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_VICTREEBEL] =
     {
-        .categoryName = _("FLYCATCHER"),
+        .categoryName = _("JEALOUSY"),
         .height = 17,
-        .weight = 155,
+        .weight = 500,
         .description = gVictreebelPokedexText,
         .unusedDescription = gVictreebelPokedexTextUnused,
         .pokemonScale = 256,
@@ -964,9 +964,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GEODUDE] =
     {
-        .categoryName = _("ROCK"),
+        .categoryName = _("BUCKET"),
         .height = 4,
-        .weight = 200,
+        .weight = 100,
         .description = gGeodudePokedexText,
         .unusedDescription = gGeodudePokedexTextUnused,
         .pokemonScale = 330,
@@ -977,9 +977,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GRAVELER] =
     {
-        .categoryName = _("ROCK"),
+        .categoryName = _("BUCKET"),
         .height = 10,
-        .weight = 1050,
+        .weight = 250,
         .description = gGravelerPokedexText,
         .unusedDescription = gGravelerPokedexTextUnused,
         .pokemonScale = 272,
@@ -1562,9 +1562,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_STARYU] =
     {
-        .categoryName = _("STAR SHAPE"),
+        .categoryName = _("SUNFLOWER"),
         .height = 8,
-        .weight = 345,
+        .weight = 250,
         .description = gStaryuPokedexText,
         .unusedDescription = gStaryuPokedexTextUnused,
         .pokemonScale = 326,
@@ -1575,9 +1575,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_STARMIE] =
     {
-        .categoryName = _("MYSTERIOUS"),
+        .categoryName = _("SUNFLOWER"),
         .height = 11,
-        .weight = 800,
+        .weight = 1000,
         .description = gStarmiePokedexText,
         .unusedDescription = gStarmiePokedexTextUnused,
         .pokemonScale = 301,
@@ -2563,9 +2563,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_UMBREON] =
     {
-        .categoryName = _("MOONLIGHT"),
+        .categoryName = _("VAMPIRE"),
         .height = 10,
-        .weight = 270,
+        .weight = 100,
         .description = gUmbreonPokedexText,
         .unusedDescription = gUmbreonPokedexTextUnused,
         .pokemonScale = 317,
@@ -2576,9 +2576,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_MURKROW] =
     {
-        .categoryName = _("DARKNESS"),
+        .categoryName = _("VAMPIRE"),
         .height = 5,
-        .weight = 21,
+        .weight = 250,
         .description = gMurkrowPokedexText,
         .unusedDescription = gMurkrowPokedexTextUnused,
         .pokemonScale = 401,
@@ -4591,9 +4591,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SHUPPET] =
     {
-        .categoryName = _("PUPPET"),
+        .categoryName = _("YAMABIKO"),
         .height = 6,
-        .weight = 23,
+        .weight = 100,
         .description = gShuppetPokedexText,
         .unusedDescription = gShuppetPokedexTextUnused,
         .pokemonScale = 440,
@@ -4604,9 +4604,9 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BANETTE] =
     {
-        .categoryName = _("MARIONETTE"),
+        .categoryName = _("YAMABIKO"),
         .height = 11,
-        .weight = 125,
+        .weight = 250,
         .description = gBanettePokedexText,
         .unusedDescription = gBanettePokedexTextUnused,
         .pokemonScale = 262,

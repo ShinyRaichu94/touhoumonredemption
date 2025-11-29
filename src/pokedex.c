@@ -77,7 +77,7 @@ u16 GetKantoPokedexCount(u8 caseID)
     u16 count = 0;
     u16 i;
 
-    for (i = 0; i < KANTO_DEX_COUNT; i++)
+    for (i = 0; i < NATIONAL_DEX_COUNT; i++)
     {
         switch (caseID)
         {
